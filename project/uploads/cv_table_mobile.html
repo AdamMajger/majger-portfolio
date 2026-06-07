@@ -1,0 +1,61 @@
+<h2 class="sr-only">CV tabuľka – pracovné skúsenosti</h2>
+<style>
+  .cv-wrap { padding: 1rem 0; }
+  .cv-nav { display: flex; justify-content: space-between; align-items: center; padding: 0 0 1.5rem; border-bottom: 0.5px solid var(--color-border-tertiary); margin-bottom: 0.5rem; }
+  .cv-brand { font-size: 16px; font-weight: 500; color: var(--color-text-primary); }
+  .cv-links { display: flex; gap: 20px; }
+  .cv-links a { font-size: 13px; color: var(--color-text-secondary); text-decoration: none; }
+  .cv-links a.active { color: var(--color-text-primary); display: flex; align-items: center; gap: 5px; }
+  .cv-dot { width: 6px; height: 6px; border-radius: 50%; background: #f5c800; display: inline-block; }
+  .cv-year-divider { font-size: 12px; color: var(--color-text-tertiary); padding: 1rem 0 0.5rem; letter-spacing: 0.05em; }
+  .cv-row { display: grid; grid-template-columns: 90px 1fr; gap: 12px; padding: 1rem 0; border-top: 0.5px solid var(--color-border-tertiary); align-items: start; }
+  .cv-period { font-size: 12px; color: var(--color-text-tertiary); line-height: 1.5; padding-top: 2px; }
+  .cv-content { display: flex; flex-direction: column; gap: 4px; }
+  .cv-role { font-size: 14px; color: var(--color-text-primary); line-height: 1.5; }
+  .cv-role .arrow { color: var(--color-text-tertiary); }
+  .cv-company { font-size: 12px; color: var(--color-text-tertiary); letter-spacing: 0.04em; text-transform: uppercase; }
+</style>
+
+<div class="cv-wrap">
+  <div class="cv-nav">
+    <span class="cv-brand">MAJGER</span>
+    <div class="cv-links">
+      <a href="#">Work</a>
+      <a href="#" class="active"><span class="cv-dot"></span> About</a>
+    </div>
+  </div>
+
+  <div class="cv-year-divider">2026</div>
+
+  <div class="cv-row">
+    <div class="cv-period">2015 — 2023</div>
+    <div class="cv-content">
+      <div class="cv-role">
+        Junior Designer<br>
+        <span class="arrow">→</span> Art Director
+      </div>
+      <div class="cv-company">Triad Advertising</div>
+    </div>
+  </div>
+
+  <div class="cv-row">
+    <div class="cv-period">2015 — 2026</div>
+    <div class="cv-content">
+      <div class="cv-role">
+        Co-Founder, Designer,<br>
+        Cleaner, Driver,<br>
+        Chef, Ideamaker
+      </div>
+      <div class="cv-company">Festival Hviezdne Noci</div>
+    </div>
+  </div>
+
+  <div class="cv-row">
+    <div class="cv-period">2020 — súč.</div>
+    <div class="cv-content">
+      <div class="cv-role">Freelance Designer</div>
+      <div class="cv-company">MAJGER</div>
+    </div>
+  </div>
+
+</div>
