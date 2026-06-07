@@ -2,10 +2,10 @@
 
 const { useState: useWorkState } = React;
 
-function Work({ activeCat, setActiveCat, openProject, showCaptions, density }) {
+function Work({ projects, activeCat, setActiveCat, openProject, showCaptions, density }) {
   const filtered = activeCat === "all"
-    ? PROJECTS
-    : PROJECTS.filter((p) => p.category === activeCat);
+    ? projects
+    : projects.filter((p) => p.category === activeCat);
 
   return (
     <main className="work">

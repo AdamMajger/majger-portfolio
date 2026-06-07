@@ -1,20 +1,25 @@
-// MAJGER — main app. Routes between Work / About / Project Detail.
+// MAJGER — main app. Fetches projects.json, routes between Work / About / Project Detail.
 
 const { useState, useEffect } = React;
 
 function App() {
+  const [projects, setProjects] = useState(null);
   const [route, setRoute] = useState({ view: "work" });
   const [activeCat, setActiveCat] = useState("all");
   const [scrolled, setScrolled] = useState(false);
 
-  // Reset scroll position on every route change
+  useEffect(() => {
+    fetch("projects.json")
+      .then(r => r.json())
+      .then(data => setProjects(data));
+  }, []);
+
   useEffect(() => {
     const stage = document.querySelector(".stage");
     if (stage) stage.scrollTop = 0;
     setScrolled(false);
   }, [route]);
 
-  // Drive nav border from scroll position
   useEffect(() => {
     const stage = document.querySelector(".stage");
     if (!stage) return;
@@ -23,11 +28,13 @@ function App() {
     return () => stage.removeEventListener("scroll", onScroll);
   }, []);
 
+  if (!projects) return <div style={{ height: "100%", background: "var(--bg)" }} />;
+
   const goTo = (next) => setRoute(next);
   const openProject = (slug) => setRoute({ view: "project", project: slug });
 
   const currentProject = route.view === "project"
-    ? PROJECTS.find((p) => p.slug === route.project)
+    ? projects.find((p) => p.slug === route.project)
     : null;
 
   return (
@@ -36,6 +43,7 @@ function App() {
       <div className="stage">
         {route.view === "work" && (
           <Work
+            projects={projects}
             activeCat={activeCat}
             setActiveCat={setActiveCat}
             openProject={openProject}
@@ -43,7 +51,7 @@ function App() {
             density="comfortable" />
         )}
         {route.view === "project" && currentProject && (
-          <ProjectDetail project={currentProject} goTo={goTo} openProject={openProject} />
+          <ProjectDetail project={currentProject} projects={projects} goTo={goTo} openProject={openProject} />
         )}
         {route.view === "profile" && <Profile />}
         <Footer goTo={goTo} />

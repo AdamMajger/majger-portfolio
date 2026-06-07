@@ -1,8 +1,8 @@
 // Project Detail view
 
-function ProjectDetail({ project, goTo, openProject }) {
-  const idx = PROJECTS.findIndex((p) => p.slug === project.slug);
-  const next = PROJECTS[(idx + 1) % PROJECTS.length];
+function ProjectDetail({ project, projects, goTo, openProject }) {
+  const idx = projects.findIndex((p) => p.slug === project.slug);
+  const next = projects[(idx + 1) % projects.length];
 
   return (
     <main className="detail">
@@ -119,7 +119,7 @@ function ProjectDetail({ project, goTo, openProject }) {
       <section className="detail__next">
         <div className="detail__next-mono">[ Next project ]</div>
         <button className="detail__next-card" onClick={() => openProject(next.slug)}>
-          <span className="detail__next-num">{String(PROJECTS.indexOf(next) + 1).padStart(2, "0")}</span>
+          <span className="detail__next-num">{String(projects.indexOf(next) + 1).padStart(2, "0")}</span>
           <span className="detail__next-title">{next.title}</span>
           <span className="detail__next-cat">{next.categoryLabel} — {next.year}</span>
           <span className="detail__next-arrow">→</span>

@@ -92,7 +92,8 @@ function Placeholder({ label, ratio = "4/5", variant = 0, hue = 30, tone = "dark
   );
 }
 
-const PROJECTS = [
+// Projects are loaded from projects.json — see app.jsx fetch()
+const PROJECTS_PLACEHOLDER = [
   {
     slug: "garaz",
     title: "Garáž",
@@ -461,4 +462,4 @@ const CV = [
   { period: "2013 — 2014",         role: "Graphic Designer",                                      place: "Film Club Bytča" },
 ];
 
-Object.assign(window, { CATEGORIES, PROJECTS, AWARDS, CV, Placeholder });
+Object.assign(window, { CATEGORIES, AWARDS, CV, Placeholder });
