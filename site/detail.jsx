@@ -78,17 +78,27 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
           {project.youtube && (
             <div className="embed" style={{ textAlign: "center", alignItems: "stretch" }}>
               <div className="embed__head">
-                <span className="embed__mono">[ Case-study video ]</span>
+                <span className="embed__mono">[ {project.youtube} ]</span>
                 <span className="embed__source">YouTube</span>
               </div>
-              <div className="embed__frame embed__frame--video">
-                <div className="embed__play">
-                  <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
-                    <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="1" />
-                    <polygon points="26,22 26,42 44,32" fill="currentColor" />
-                  </svg>
-                </div>
-                <span className="embed__label">{project.youtube}</span>
+              <div className="embed__frame embed__frame--video" style={{ padding: 0, overflow: "hidden" }}>
+                {project.youtubeThumbId ? (
+                  <iframe
+                    style={{ width: "100%", aspectRatio: "16/9", border: "none", display: "block" }}
+                    src={`https://www.youtube-nocookie.com/embed/${project.youtubeThumbId}?rel=0&modestbranding=1`}
+                    title={project.youtube}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                ) : (
+                  <><div className="embed__play">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                      <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="1" />
+                      <polygon points="26,22 26,42 44,32" fill="currentColor" />
+                    </svg>
+                  </div>
+                  <span className="embed__label">{project.youtube}</span></>
+                )}
               </div>
             </div>
           )}
