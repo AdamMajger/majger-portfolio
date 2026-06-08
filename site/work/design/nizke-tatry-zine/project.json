@@ -1,0 +1,22 @@
+{
+  "title": "Nízke Tatry — zine 02",
+  "year": 2024,
+  "client": "Self-initiated",
+  "authors": "Majger / Photo: P. Vavrek",
+  "ratio": "3/4",
+  "placeholder": "zine spread",
+  "variant": 4,
+  "hue": 28,
+  "tone": "dark",
+  "animate": null,
+  "description": "Second issue of a self-published photo zine documenting unmarked trails through the Low Tatras. 48 pages, two-colour risograph, edition of 200.",
+  "role": "Editorial, print",
+  "duration": "Sep 2024",
+  "gallery": [
+    { "ratio": "3/4",  "variant": 0, "hue": 28, "label": "cover" },
+    { "ratio": "16/9", "variant": 1, "hue": 28, "label": "spread 12-13" },
+    { "ratio": "16/9", "variant": 5, "hue": 28, "label": "spread 28-29" }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}

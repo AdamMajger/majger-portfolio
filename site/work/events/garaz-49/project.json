@@ -1,0 +1,22 @@
+{
+  "title": "Garáž 49",
+  "year": 2024,
+  "client": "Garáž 49 / Self-initiated",
+  "authors": "Majger / Light: J. Krištof",
+  "ratio": "4/3",
+  "placeholder": "garage interior",
+  "variant": 1,
+  "hue": 24,
+  "tone": "dark",
+  "animate": "shift",
+  "description": "Three nights of experimental sound staged inside an abandoned commercial garage on the edge of Petržalka. The visual language responded to what was already there — chipped paint, cable conduits, fluorescent strips — and added almost nothing.",
+  "role": "Spatial concept, signage, print",
+  "duration": "Apr 2024",
+  "gallery": [
+    { "ratio": "16/9", "variant": 0, "hue": 24, "label": "interior wide" },
+    { "ratio": "1/1",  "variant": 5, "hue": 24, "label": "wayfinding sticker" },
+    { "ratio": "4/5",  "variant": 2, "hue": 24, "label": "programme zine" }
+  ],
+  "youtube": "documentation — 2:08",
+  "soundcloud": "night 02 — full set"
+}

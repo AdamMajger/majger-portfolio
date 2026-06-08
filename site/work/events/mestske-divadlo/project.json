@@ -1,0 +1,23 @@
+{
+  "title": "Mestské Divadlo — 24/25",
+  "year": 2024,
+  "client": "Mestské Divadlo Žilina",
+  "authors": "Majger / Studio Marno",
+  "ratio": "4/3",
+  "placeholder": "season identity",
+  "variant": 1,
+  "hue": 30,
+  "tone": "dark",
+  "animate": null,
+  "description": "Season identity for the 24/25 programme — six productions, six covers, one shared modular grid. Each cover is a single photographic motif crossed by the same fine yellow ruling.",
+  "role": "Season identity, programmes",
+  "duration": "Aug 2024",
+  "gallery": [
+    { "ratio": "3/4", "variant": 0, "hue": 30, "label": "programme A — cover" },
+    { "ratio": "3/4", "variant": 3, "hue": 30, "label": "programme B" },
+    { "ratio": "3/4", "variant": 5, "hue": 30, "label": "programme C" },
+    { "ratio": "3/4", "variant": 4, "hue": 30, "label": "programme D" }
+  ],
+  "youtube": "season trailer — 1:08",
+  "soundcloud": null
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Nocturno — music video",
+  "year": 2025,
+  "client": "Self-released",
+  "authors": "Majger / Dir: T. Hraška",
+  "ratio": "16/9",
+  "youtubeThumbId": "e6ku-fpp16s",
+  "placeholder": "music video",
+  "description": "Music-video direction and visual identity for the single 'Nocturno'. Shot over one night in three locations across central Bratislava — an empty multi-storey carpark, an underpass, and a rooftop on Račianska. The cover art and lyric video reuse the same three frames, regraded and retitled.",
+  "role": "Direction, identity, lyric video",
+  "duration": "Feb 2025",
+  "gallery": [
+    { "ratio": "16/9", "variant": 0, "hue": 24, "label": "stills — carpark" },
+    { "ratio": "3/4",  "variant": 2, "hue": 24, "label": "cover art" },
+    { "ratio": "16/9", "variant": 4, "hue": 24, "label": "stills — rooftop" }
+  ],
+  "youtube": "music video — 3:48",
+  "soundcloud": "Nocturno — single"
+}

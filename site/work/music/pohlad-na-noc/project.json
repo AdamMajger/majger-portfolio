@@ -1,0 +1,23 @@
+{
+  "title": "Pohľad na noc",
+  "year": 2025,
+  "client": "Stará tržnica, Bratislava",
+  "authors": "Majger / Foto: B. Sedláková",
+  "ratio": "4/5",
+  "placeholder": "concert poster",
+  "variant": 0,
+  "hue": 28,
+  "tone": "dark",
+  "animate": "pulse",
+  "description": "A nocturnal concert series held in the high-vaulted Stará Tržnica through the autumn months. The identity leans on a single graphic mark that mutates across posters, programmes and stage projection — a quiet, repeated gesture against the noise of the city outside.",
+  "role": "Identity, posters, stage visuals",
+  "duration": "Sep — Nov 2025",
+  "gallery": [
+    { "ratio": "16/9", "variant": 1, "hue": 28, "label": "stage projection still" },
+    { "ratio": "3/4",  "variant": 2, "hue": 28, "label": "poster A2" },
+    { "ratio": "3/4",  "variant": 4, "hue": 28, "label": "poster A2 — variant" },
+    { "ratio": "21/9", "variant": 3, "hue": 28, "label": "venue install" }
+  ],
+  "youtube": "case-study reel — 1:42",
+  "soundcloud": "set / atmosphere — 38 min"
+}

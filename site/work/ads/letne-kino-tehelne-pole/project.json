@@ -1,0 +1,24 @@
+{
+  "title": "Letné kino, Tehelné pole",
+  "year": 2024,
+  "client": "Mesto Bratislava",
+  "authors": "Majger / Architecture: Plural",
+  "ratio": "16/9",
+  "placeholder": "outdoor cinema",
+  "variant": 3,
+  "hue": 22,
+  "tone": "dark",
+  "animate": "marquee",
+  "videoId": "WjJTNZQUVAo",
+  "description": "Identity, signage and programme for the third edition of the open-air summer cinema at Tehelné pole. The system is built for outdoor rain and quick swap-outs — laminated A1 boards, two stencils, a single yellow.",
+  "role": "Identity, signage, programme",
+  "duration": "Jun — Aug 2024",
+  "gallery": [
+    { "ratio": "16/9", "variant": 0, "hue": 22, "label": "field at dusk" },
+    { "ratio": "3/4",  "variant": 5, "hue": 22, "label": "programme A3" },
+    { "ratio": "1/1",  "variant": 2, "hue": 22, "label": "stencil sheet" },
+    { "ratio": "16/9", "variant": 4, "hue": 22, "label": "screen detail" }
+  ],
+  "youtube": "season recap — 2:21",
+  "soundcloud": null
+}

@@ -1,0 +1,20 @@
+{
+  "order": 1,
+  "title": "Garáž",
+  "year": 2026,
+  "client": "Trenčín 2026 — Európske hlavné mesto kultúry",
+  "authors": "Majger",
+  "ratio": "4/5",
+  "thumbnail": "thumbnail.jpg",
+  "placeholder": "garáž",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+  "role": "Identity, posters, social",
+  "duration": "2026",
+  "gallery": [
+    { "file": "thumbnail.jpg", "ratio": "4/5", "label": "key visual — garážou to začína" },
+    { "file": "porota.png",    "ratio": "4/5", "label": "porota — jury reveal" },
+    { "file": "lineup.jpg",    "ratio": "4/5", "label": "line-up announcement" }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}

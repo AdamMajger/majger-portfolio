@@ -1,0 +1,23 @@
+{
+  "title": "Biela noc — Stredisko",
+  "year": 2023,
+  "client": "Biela noc",
+  "authors": "Majger / Production: BN",
+  "ratio": "21/9",
+  "placeholder": "festival hub",
+  "variant": 3,
+  "hue": 20,
+  "tone": "dark",
+  "animate": "pulse",
+  "videoId": "aqz-KE-bpKQ",
+  "description": "A nighttime city-wide art festival, and the central hub on Hviezdoslavovo námestie. The system uses one custom display face and one yellow, painted directly on the pavement, scaffolds and water tanks.",
+  "role": "Festival hub identity, signage",
+  "duration": "Oct 2023",
+  "gallery": [
+    { "ratio": "21/9", "variant": 0, "hue": 20, "label": "hub aerial" },
+    { "ratio": "3/4",  "variant": 1, "hue": 20, "label": "scaffold sign" },
+    { "ratio": "1/1",  "variant": 5, "hue": 20, "label": "wayfinding" }
+  ],
+  "youtube": "night recap — 3:10",
+  "soundcloud": "ambience loop — 22 min"
+}

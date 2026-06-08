@@ -1,0 +1,21 @@
+{
+  "title": "Blok 7",
+  "year": 2023,
+  "client": "Petržalka Anti-Conference",
+  "authors": "Majger",
+  "ratio": "3/4",
+  "placeholder": "concrete block",
+  "variant": 2,
+  "hue": 26,
+  "tone": "dark",
+  "animate": "shift",
+  "description": "A two-day anti-conference held inside the unused ground floor of a panel-block in Petržalka. The visual material is a single typewritten programme, photocopied to ninth-generation degradation.",
+  "role": "Print, signage",
+  "duration": "Nov 2023",
+  "gallery": [
+    { "ratio": "1/1", "variant": 1, "hue": 26, "label": "programme cover" },
+    { "ratio": "3/4", "variant": 4, "hue": 26, "label": "interior signage" }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}

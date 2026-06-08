@@ -1,0 +1,22 @@
+{
+  "title": "Tatry Sessions",
+  "year": 2023,
+  "client": "Tatry Sessions o.z.",
+  "authors": "Majger",
+  "ratio": "1/1",
+  "placeholder": "session poster",
+  "variant": 2,
+  "hue": 26,
+  "tone": "mid",
+  "animate": null,
+  "description": "Five intimate concerts in mountain chalets across the High Tatras, one per peak. Each poster is a different stenographic abstraction of its mountain's silhouette, rendered as a low-resolution dot grid.",
+  "role": "Identity, posters, web",
+  "duration": "Summer 2023",
+  "gallery": [
+    { "ratio": "3/4", "variant": 1, "hue": 26, "label": "Kriváň poster" },
+    { "ratio": "3/4", "variant": 4, "hue": 26, "label": "Lomnický štít" },
+    { "ratio": "3/4", "variant": 5, "hue": 26, "label": "Gerlachovský" }
+  ],
+  "youtube": null,
+  "soundcloud": "Session 03 — live at Téryho"
+}

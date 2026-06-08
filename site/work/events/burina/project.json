@@ -1,0 +1,22 @@
+{
+  "title": "Burina",
+  "year": 2025,
+  "client": "Divadlo NUDE, Košice",
+  "authors": "Majger / Director: V. Bárdoš",
+  "ratio": "3/4",
+  "placeholder": "theatre poster",
+  "variant": 5,
+  "hue": 30,
+  "tone": "dark",
+  "animate": null,
+  "description": "Visual identity for a chamber play about an overgrown garden that won't be tamed. The title is set in a single overgrown weight that thickens and tangles across each printed piece, the typography itself going to seed.",
+  "role": "Identity, poster, programme",
+  "duration": "Mar 2025",
+  "gallery": [
+    { "ratio": "3/4",  "variant": 0, "hue": 30, "label": "A1 poster" },
+    { "ratio": "16/9", "variant": 2, "hue": 30, "label": "lobby banner" },
+    { "ratio": "1/1",  "variant": 4, "hue": 30, "label": "social tile" }
+  ],
+  "youtube": "trailer — 0:42",
+  "soundcloud": null
+}

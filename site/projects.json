@@ -8,168 +8,30 @@
     "client": "Trenčín 2026 — Európske hlavné mesto kultúry",
     "authors": "Majger",
     "ratio": "4/5",
-    "image": "images/garaz/thumbnail.jpg",
     "placeholder": "garáž",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
     "role": "Identity, posters, social",
     "duration": "2026",
     "gallery": [
-      { "ratio": "4/5", "image": "images/garaz/thumbnail.jpg", "label": "key visual — garážou to začína" },
-      { "ratio": "4/5", "image": "images/garaz/porota.png",    "label": "porota — jury reveal" },
-      { "ratio": "4/5", "image": "images/garaz/lineup.jpg",    "label": "line-up announcement" }
+      {
+        "ratio": "4/5",
+        "label": "key visual — garážou to začína",
+        "image": "work/design/garaz/thumbnail.jpg"
+      },
+      {
+        "ratio": "4/5",
+        "label": "porota — jury reveal",
+        "image": "work/design/garaz/porota.png"
+      },
+      {
+        "ratio": "4/5",
+        "label": "line-up announcement",
+        "image": "work/design/garaz/lineup.jpg"
+      }
     ],
     "youtube": null,
-    "soundcloud": null
-  },
-  {
-    "slug": "nocturno-mv",
-    "title": "Nocturno — music video",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2025,
-    "client": "Self-released",
-    "authors": "Majger / Dir: T. Hraška",
-    "ratio": "16/9",
-    "youtubeThumbId": "e6ku-fpp16s",
-    "placeholder": "music video",
-    "description": "Music-video direction and visual identity for the single 'Nocturno'. Shot over one night in three locations across central Bratislava — an empty multi-storey carpark, an underpass, and a rooftop on Račianska. The cover art and lyric video reuse the same three frames, regraded and retitled.",
-    "role": "Direction, identity, lyric video",
-    "duration": "Feb 2025",
-    "gallery": [
-      { "ratio": "16/9", "variant": 0, "hue": 24, "label": "stills — carpark" },
-      { "ratio": "3/4",  "variant": 2, "hue": 24, "label": "cover art" },
-      { "ratio": "16/9", "variant": 4, "hue": 24, "label": "stills — rooftop" }
-    ],
-    "youtube": "music video — 3:48",
-    "soundcloud": "Nocturno — single"
-  },
-  {
-    "slug": "pohlad-na-noc",
-    "title": "Pohľad na noc",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2025,
-    "client": "Stará tržnica, Bratislava",
-    "authors": "Majger / Foto: B. Sedláková",
-    "ratio": "4/5",
-    "variant": 0,
-    "hue": 28,
-    "tone": "dark",
-    "animate": "pulse",
-    "placeholder": "concert poster",
-    "description": "A nocturnal concert series held in the high-vaulted Stará Tržnica through the autumn months. The identity leans on a single graphic mark that mutates across posters, programmes and stage projection — a quiet, repeated gesture against the noise of the city outside.",
-    "role": "Identity, posters, stage visuals",
-    "duration": "Sep — Nov 2025",
-    "gallery": [
-      { "ratio": "16/9", "variant": 1, "hue": 28, "label": "stage projection still" },
-      { "ratio": "3/4",  "variant": 2, "hue": 28, "label": "poster A2" },
-      { "ratio": "3/4",  "variant": 4, "hue": 28, "label": "poster A2 — variant" },
-      { "ratio": "21/9", "variant": 3, "hue": 28, "label": "venue install" }
-    ],
-    "youtube": "case-study reel — 1:42",
-    "soundcloud": "set / atmosphere — 38 min"
-  },
-  {
-    "slug": "garaz-49",
-    "title": "Garáž 49",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2024,
-    "client": "Garáž 49 / Self-initiated",
-    "authors": "Majger / Light: J. Krištof",
-    "ratio": "4/3",
-    "variant": 1,
-    "hue": 24,
-    "tone": "dark",
-    "animate": "shift",
-    "placeholder": "garage interior",
-    "description": "Three nights of experimental sound staged inside an abandoned commercial garage on the edge of Petržalka. The visual language responded to what was already there — chipped paint, cable conduits, fluorescent strips — and added almost nothing.",
-    "role": "Spatial concept, signage, print",
-    "duration": "Apr 2024",
-    "gallery": [
-      { "ratio": "16/9", "variant": 0, "hue": 24, "label": "interior wide" },
-      { "ratio": "1/1",  "variant": 5, "hue": 24, "label": "wayfinding sticker" },
-      { "ratio": "4/5",  "variant": 2, "hue": 24, "label": "programme zine" }
-    ],
-    "youtube": "documentation — 2:08",
-    "soundcloud": "night 02 — full set"
-  },
-  {
-    "slug": "sv-katarina",
-    "title": "Kostol sv. Kataríny",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2024,
-    "client": "Konvent klarisiek, Bratislava",
-    "authors": "Majger w/ Studio Plân",
-    "ratio": "3/4",
-    "variant": 4,
-    "hue": 32,
-    "tone": "dark",
-    "animate": null,
-    "placeholder": "church nave",
-    "description": "A one-evening sound and projection piece staged in the disused 14th-century Church of St. Catherine. The visual material was generated from rubbings of the floor stones, then redrawn for projection across the vault.",
-    "role": "Visual direction, projection content",
-    "duration": "Oct 2024",
-    "gallery": [
-      { "ratio": "21/9", "variant": 3, "hue": 32, "label": "nave projection" },
-      { "ratio": "3/4",  "variant": 1, "hue": 32, "label": "rubbing 04" },
-      { "ratio": "1/1",  "variant": 0, "hue": 32, "label": "programme cover" }
-    ],
-    "youtube": "evening recording — 14:50",
-    "soundcloud": null
-  },
-  {
-    "slug": "letne-kino-tehelne-pole",
-    "title": "Letné kino, Tehelné pole",
-    "category": "ads",
-    "categoryLabel": "Ads",
-    "year": 2024,
-    "client": "Mesto Bratislava",
-    "authors": "Majger / Architecture: Plural",
-    "ratio": "16/9",
-    "variant": 3,
-    "hue": 22,
-    "tone": "dark",
-    "animate": "marquee",
-    "placeholder": "outdoor cinema",
-    "videoId": "WjJTNZQUVAo",
-    "description": "Identity, signage and programme for the third edition of the open-air summer cinema at Tehelné pole. The system is built for outdoor rain and quick swap-outs — laminated A1 boards, two stencils, a single yellow.",
-    "role": "Identity, signage, programme",
-    "duration": "Jun — Aug 2024",
-    "gallery": [
-      { "ratio": "16/9", "variant": 0, "hue": 22, "label": "field at dusk" },
-      { "ratio": "3/4",  "variant": 5, "hue": 22, "label": "programme A3" },
-      { "ratio": "1/1",  "variant": 2, "hue": 22, "label": "stencil sheet" },
-      { "ratio": "16/9", "variant": 4, "hue": 22, "label": "screen detail" }
-    ],
-    "youtube": "season recap — 2:21",
-    "soundcloud": null
-  },
-  {
-    "slug": "tatry-sessions",
-    "title": "Tatry Sessions",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2023,
-    "client": "Tatry Sessions o.z.",
-    "authors": "Majger",
-    "ratio": "1/1",
-    "variant": 2,
-    "hue": 26,
-    "tone": "mid",
-    "animate": null,
-    "placeholder": "session poster",
-    "description": "Five intimate concerts in mountain chalets across the High Tatras, one per peak. Each poster is a different stenographic abstraction of its mountain's silhouette, rendered as a low-resolution dot grid.",
-    "role": "Identity, posters, web",
-    "duration": "Summer 2023",
-    "gallery": [
-      { "ratio": "3/4", "variant": 1, "hue": 26, "label": "Kriváň poster" },
-      { "ratio": "3/4", "variant": 4, "hue": 26, "label": "Lomnický štít" },
-      { "ratio": "3/4", "variant": 5, "hue": 26, "label": "Gerlachovský" }
-    ],
-    "youtube": null,
-    "soundcloud": "Session 03 — live at Téryho"
+    "soundcloud": null,
+    "image": "work/design/garaz/thumbnail.jpg"
   },
   {
     "slug": "burina",
@@ -180,122 +42,119 @@
     "client": "Divadlo NUDE, Košice",
     "authors": "Majger / Director: V. Bárdoš",
     "ratio": "3/4",
-    "variant": 5,
-    "hue": 30,
-    "tone": "dark",
-    "animate": null,
     "placeholder": "theatre poster",
     "description": "Visual identity for a chamber play about an overgrown garden that won't be tamed. The title is set in a single overgrown weight that thickens and tangles across each printed piece, the typography itself going to seed.",
     "role": "Identity, poster, programme",
     "duration": "Mar 2025",
     "gallery": [
-      { "ratio": "3/4",  "variant": 0, "hue": 30, "label": "A1 poster" },
-      { "ratio": "16/9", "variant": 2, "hue": 30, "label": "lobby banner" },
-      { "ratio": "1/1",  "variant": 4, "hue": 30, "label": "social tile" }
+      {
+        "ratio": "3/4",
+        "variant": 0,
+        "hue": 30,
+        "label": "A1 poster"
+      },
+      {
+        "ratio": "16/9",
+        "variant": 2,
+        "hue": 30,
+        "label": "lobby banner"
+      },
+      {
+        "ratio": "1/1",
+        "variant": 4,
+        "hue": 30,
+        "label": "social tile"
+      }
     ],
     "youtube": "trailer — 0:42",
-    "soundcloud": null
-  },
-  {
-    "slug": "biela-noc",
-    "title": "Biela noc — Stredisko",
-    "category": "ads",
-    "categoryLabel": "Ads",
-    "year": 2023,
-    "client": "Biela noc",
-    "authors": "Majger / Production: BN",
-    "ratio": "21/9",
-    "variant": 3,
-    "hue": 20,
-    "tone": "dark",
-    "animate": "pulse",
-    "placeholder": "festival hub",
-    "videoId": "aqz-KE-bpKQ",
-    "description": "A nighttime city-wide art festival, and the central hub on Hviezdoslavovo námestie. The system uses one custom display face and one yellow, painted directly on the pavement, scaffolds and water tanks.",
-    "role": "Festival hub identity, signage",
-    "duration": "Oct 2023",
-    "gallery": [
-      { "ratio": "21/9", "variant": 0, "hue": 20, "label": "hub aerial" },
-      { "ratio": "3/4",  "variant": 1, "hue": 20, "label": "scaffold sign" },
-      { "ratio": "1/1",  "variant": 5, "hue": 20, "label": "wayfinding" }
-    ],
-    "youtube": "night recap — 3:10",
-    "soundcloud": "ambience loop — 22 min"
-  },
-  {
-    "slug": "kamenny-mlyn",
-    "title": "Kamenný mlyn",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2024,
-    "client": "Self-initiated / Mlyn Kvačany",
-    "authors": "Majger",
-    "ratio": "4/5",
-    "variant": 0,
-    "hue": 34,
-    "tone": "dark",
-    "animate": null,
-    "placeholder": "stone mill",
-    "description": "Two acoustic nights inside a working watermill in Liptov. The whole identity is one poster, screenprinted on offcuts of millstone-grey paper, in editions of forty.",
-    "role": "Identity, screenprint",
-    "duration": "Jul 2024",
-    "gallery": [
-      { "ratio": "3/4",  "variant": 2, "hue": 34, "label": "screenprint — night 1" },
-      { "ratio": "3/4",  "variant": 4, "hue": 34, "label": "screenprint — night 2" },
-      { "ratio": "16/9", "variant": 5, "hue": 34, "label": "venue interior" }
-    ],
-    "youtube": null,
-    "soundcloud": "Night 02 — Bára Vrkočová"
-  },
-  {
-    "slug": "mestske-divadlo",
-    "title": "Mestské Divadlo — 24/25",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2024,
-    "client": "Mestské Divadlo Žilina",
-    "authors": "Majger / Studio Marno",
-    "ratio": "4/3",
-    "variant": 1,
+    "soundcloud": null,
+    "variant": 5,
     "hue": 30,
     "tone": "dark",
-    "animate": null,
-    "placeholder": "season identity",
-    "description": "Season identity for the 24/25 programme — six productions, six covers, one shared modular grid. Each cover is a single photographic motif crossed by the same fine yellow ruling.",
-    "role": "Season identity, programmes",
-    "duration": "Aug 2024",
-    "gallery": [
-      { "ratio": "3/4", "variant": 0, "hue": 30, "label": "programme A — cover" },
-      { "ratio": "3/4", "variant": 3, "hue": 30, "label": "programme B" },
-      { "ratio": "3/4", "variant": 5, "hue": 30, "label": "programme C" },
-      { "ratio": "3/4", "variant": 4, "hue": 30, "label": "programme D" }
-    ],
-    "youtube": "season trailer — 1:08",
-    "soundcloud": null
+    "animate": null
   },
   {
-    "slug": "blok-7",
-    "title": "Blok 7",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2023,
-    "client": "Petržalka Anti-Conference",
-    "authors": "Majger",
-    "ratio": "3/4",
-    "variant": 2,
-    "hue": 26,
-    "tone": "dark",
-    "animate": "shift",
-    "placeholder": "concrete block",
-    "description": "A two-day anti-conference held inside the unused ground floor of a panel-block in Petržalka. The visual material is a single typewritten programme, photocopied to ninth-generation degradation.",
-    "role": "Print, signage",
-    "duration": "Nov 2023",
+    "slug": "nocturno-mv",
+    "title": "Nocturno — music video",
+    "category": "music",
+    "categoryLabel": "Music",
+    "year": 2025,
+    "client": "Self-released",
+    "authors": "Majger / Dir: T. Hraška",
+    "ratio": "16/9",
+    "placeholder": "music video",
+    "description": "Music-video direction and visual identity for the single 'Nocturno'. Shot over one night in three locations across central Bratislava — an empty multi-storey carpark, an underpass, and a rooftop on Račianska. The cover art and lyric video reuse the same three frames, regraded and retitled.",
+    "role": "Direction, identity, lyric video",
+    "duration": "Feb 2025",
     "gallery": [
-      { "ratio": "1/1", "variant": 1, "hue": 26, "label": "programme cover" },
-      { "ratio": "3/4", "variant": 4, "hue": 26, "label": "interior signage" }
+      {
+        "ratio": "16/9",
+        "variant": 0,
+        "hue": 24,
+        "label": "stills — carpark"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 2,
+        "hue": 24,
+        "label": "cover art"
+      },
+      {
+        "ratio": "16/9",
+        "variant": 4,
+        "hue": 24,
+        "label": "stills — rooftop"
+      }
     ],
-    "youtube": null,
-    "soundcloud": null
+    "youtube": "music video — 3:48",
+    "soundcloud": "Nocturno — single",
+    "youtubeThumbId": "e6ku-fpp16s"
+  },
+  {
+    "slug": "pohlad-na-noc",
+    "title": "Pohľad na noc",
+    "category": "music",
+    "categoryLabel": "Music",
+    "year": 2025,
+    "client": "Stará tržnica, Bratislava",
+    "authors": "Majger / Foto: B. Sedláková",
+    "ratio": "4/5",
+    "placeholder": "concert poster",
+    "description": "A nocturnal concert series held in the high-vaulted Stará Tržnica through the autumn months. The identity leans on a single graphic mark that mutates across posters, programmes and stage projection — a quiet, repeated gesture against the noise of the city outside.",
+    "role": "Identity, posters, stage visuals",
+    "duration": "Sep — Nov 2025",
+    "gallery": [
+      {
+        "ratio": "16/9",
+        "variant": 1,
+        "hue": 28,
+        "label": "stage projection still"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 2,
+        "hue": 28,
+        "label": "poster A2"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 4,
+        "hue": 28,
+        "label": "poster A2 — variant"
+      },
+      {
+        "ratio": "21/9",
+        "variant": 3,
+        "hue": 28,
+        "label": "venue install"
+      }
+    ],
+    "youtube": "case-study reel — 1:42",
+    "soundcloud": "set / atmosphere — 38 min",
+    "variant": 0,
+    "hue": 28,
+    "tone": "dark",
+    "animate": "pulse"
   },
   {
     "slug": "studio-jednotky",
@@ -306,21 +165,209 @@
     "client": "Studio Jednotky",
     "authors": "Majger",
     "ratio": "1/1",
-    "variant": 5,
-    "hue": 32,
-    "tone": "dark",
-    "animate": null,
     "placeholder": "identity system",
     "description": "Identity for a two-person architecture practice working between Bratislava and Brno. A single wordmark, set very tight, and a numbered system of stationery — every printed piece carries its sequence number.",
     "role": "Identity, stationery, web",
     "duration": "Jan 2025",
     "gallery": [
-      { "ratio": "16/9", "variant": 0, "hue": 32, "label": "letterhead" },
-      { "ratio": "1/1",  "variant": 2, "hue": 32, "label": "card 001 / 100" },
-      { "ratio": "3/4",  "variant": 3, "hue": 32, "label": "tote" }
+      {
+        "ratio": "16/9",
+        "variant": 0,
+        "hue": 32,
+        "label": "letterhead"
+      },
+      {
+        "ratio": "1/1",
+        "variant": 2,
+        "hue": 32,
+        "label": "card 001 / 100"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 3,
+        "hue": 32,
+        "label": "tote"
+      }
     ],
     "youtube": null,
-    "soundcloud": null
+    "soundcloud": null,
+    "variant": 5,
+    "hue": 32,
+    "tone": "dark",
+    "animate": null
+  },
+  {
+    "slug": "garaz-49",
+    "title": "Garáž 49",
+    "category": "events",
+    "categoryLabel": "Events",
+    "year": 2024,
+    "client": "Garáž 49 / Self-initiated",
+    "authors": "Majger / Light: J. Krištof",
+    "ratio": "4/3",
+    "placeholder": "garage interior",
+    "description": "Three nights of experimental sound staged inside an abandoned commercial garage on the edge of Petržalka. The visual language responded to what was already there — chipped paint, cable conduits, fluorescent strips — and added almost nothing.",
+    "role": "Spatial concept, signage, print",
+    "duration": "Apr 2024",
+    "gallery": [
+      {
+        "ratio": "16/9",
+        "variant": 0,
+        "hue": 24,
+        "label": "interior wide"
+      },
+      {
+        "ratio": "1/1",
+        "variant": 5,
+        "hue": 24,
+        "label": "wayfinding sticker"
+      },
+      {
+        "ratio": "4/5",
+        "variant": 2,
+        "hue": 24,
+        "label": "programme zine"
+      }
+    ],
+    "youtube": "documentation — 2:08",
+    "soundcloud": "night 02 — full set",
+    "variant": 1,
+    "hue": 24,
+    "tone": "dark",
+    "animate": "shift"
+  },
+  {
+    "slug": "kamenny-mlyn",
+    "title": "Kamenný mlyn",
+    "category": "music",
+    "categoryLabel": "Music",
+    "year": 2024,
+    "client": "Self-initiated / Mlyn Kvačany",
+    "authors": "Majger",
+    "ratio": "4/5",
+    "placeholder": "stone mill",
+    "description": "Two acoustic nights inside a working watermill in Liptov. The whole identity is one poster, screenprinted on offcuts of millstone-grey paper, in editions of forty.",
+    "role": "Identity, screenprint",
+    "duration": "Jul 2024",
+    "gallery": [
+      {
+        "ratio": "3/4",
+        "variant": 2,
+        "hue": 34,
+        "label": "screenprint — night 1"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 4,
+        "hue": 34,
+        "label": "screenprint — night 2"
+      },
+      {
+        "ratio": "16/9",
+        "variant": 5,
+        "hue": 34,
+        "label": "venue interior"
+      }
+    ],
+    "youtube": null,
+    "soundcloud": "Night 02 — Bára Vrkočová",
+    "variant": 0,
+    "hue": 34,
+    "tone": "dark",
+    "animate": null
+  },
+  {
+    "slug": "letne-kino-tehelne-pole",
+    "title": "Letné kino, Tehelné pole",
+    "category": "ads",
+    "categoryLabel": "Ads",
+    "year": 2024,
+    "client": "Mesto Bratislava",
+    "authors": "Majger / Architecture: Plural",
+    "ratio": "16/9",
+    "placeholder": "outdoor cinema",
+    "description": "Identity, signage and programme for the third edition of the open-air summer cinema at Tehelné pole. The system is built for outdoor rain and quick swap-outs — laminated A1 boards, two stencils, a single yellow.",
+    "role": "Identity, signage, programme",
+    "duration": "Jun — Aug 2024",
+    "gallery": [
+      {
+        "ratio": "16/9",
+        "variant": 0,
+        "hue": 22,
+        "label": "field at dusk"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 5,
+        "hue": 22,
+        "label": "programme A3"
+      },
+      {
+        "ratio": "1/1",
+        "variant": 2,
+        "hue": 22,
+        "label": "stencil sheet"
+      },
+      {
+        "ratio": "16/9",
+        "variant": 4,
+        "hue": 22,
+        "label": "screen detail"
+      }
+    ],
+    "youtube": "season recap — 2:21",
+    "soundcloud": null,
+    "videoId": "WjJTNZQUVAo",
+    "variant": 3,
+    "hue": 22,
+    "tone": "dark",
+    "animate": "marquee"
+  },
+  {
+    "slug": "mestske-divadlo",
+    "title": "Mestské Divadlo — 24/25",
+    "category": "events",
+    "categoryLabel": "Events",
+    "year": 2024,
+    "client": "Mestské Divadlo Žilina",
+    "authors": "Majger / Studio Marno",
+    "ratio": "4/3",
+    "placeholder": "season identity",
+    "description": "Season identity for the 24/25 programme — six productions, six covers, one shared modular grid. Each cover is a single photographic motif crossed by the same fine yellow ruling.",
+    "role": "Season identity, programmes",
+    "duration": "Aug 2024",
+    "gallery": [
+      {
+        "ratio": "3/4",
+        "variant": 0,
+        "hue": 30,
+        "label": "programme A — cover"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 3,
+        "hue": 30,
+        "label": "programme B"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 5,
+        "hue": 30,
+        "label": "programme C"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 4,
+        "hue": 30,
+        "label": "programme D"
+      }
+    ],
+    "youtube": "season trailer — 1:08",
+    "soundcloud": null,
+    "variant": 1,
+    "hue": 30,
+    "tone": "dark",
+    "animate": null
   },
   {
     "slug": "nizke-tatry-zine",
@@ -331,20 +378,190 @@
     "client": "Self-initiated",
     "authors": "Majger / Photo: P. Vavrek",
     "ratio": "3/4",
-    "variant": 4,
-    "hue": 28,
-    "tone": "dark",
-    "animate": null,
     "placeholder": "zine spread",
     "description": "Second issue of a self-published photo zine documenting unmarked trails through the Low Tatras. 48 pages, two-colour risograph, edition of 200.",
     "role": "Editorial, print",
     "duration": "Sep 2024",
     "gallery": [
-      { "ratio": "3/4",  "variant": 0, "hue": 28, "label": "cover" },
-      { "ratio": "16/9", "variant": 1, "hue": 28, "label": "spread 12-13" },
-      { "ratio": "16/9", "variant": 5, "hue": 28, "label": "spread 28-29" }
+      {
+        "ratio": "3/4",
+        "variant": 0,
+        "hue": 28,
+        "label": "cover"
+      },
+      {
+        "ratio": "16/9",
+        "variant": 1,
+        "hue": 28,
+        "label": "spread 12-13"
+      },
+      {
+        "ratio": "16/9",
+        "variant": 5,
+        "hue": 28,
+        "label": "spread 28-29"
+      }
     ],
     "youtube": null,
-    "soundcloud": null
+    "soundcloud": null,
+    "variant": 4,
+    "hue": 28,
+    "tone": "dark",
+    "animate": null
+  },
+  {
+    "slug": "sv-katarina",
+    "title": "Kostol sv. Kataríny",
+    "category": "events",
+    "categoryLabel": "Events",
+    "year": 2024,
+    "client": "Konvent klarisiek, Bratislava",
+    "authors": "Majger w/ Studio Plân",
+    "ratio": "3/4",
+    "placeholder": "church nave",
+    "description": "A one-evening sound and projection piece staged in the disused 14th-century Church of St. Catherine. The visual material was generated from rubbings of the floor stones, then redrawn for projection across the vault.",
+    "role": "Visual direction, projection content",
+    "duration": "Oct 2024",
+    "gallery": [
+      {
+        "ratio": "21/9",
+        "variant": 3,
+        "hue": 32,
+        "label": "nave projection"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 1,
+        "hue": 32,
+        "label": "rubbing 04"
+      },
+      {
+        "ratio": "1/1",
+        "variant": 0,
+        "hue": 32,
+        "label": "programme cover"
+      }
+    ],
+    "youtube": "evening recording — 14:50",
+    "soundcloud": null,
+    "variant": 4,
+    "hue": 32,
+    "tone": "dark",
+    "animate": null
+  },
+  {
+    "slug": "biela-noc",
+    "title": "Biela noc — Stredisko",
+    "category": "ads",
+    "categoryLabel": "Ads",
+    "year": 2023,
+    "client": "Biela noc",
+    "authors": "Majger / Production: BN",
+    "ratio": "21/9",
+    "placeholder": "festival hub",
+    "description": "A nighttime city-wide art festival, and the central hub on Hviezdoslavovo námestie. The system uses one custom display face and one yellow, painted directly on the pavement, scaffolds and water tanks.",
+    "role": "Festival hub identity, signage",
+    "duration": "Oct 2023",
+    "gallery": [
+      {
+        "ratio": "21/9",
+        "variant": 0,
+        "hue": 20,
+        "label": "hub aerial"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 1,
+        "hue": 20,
+        "label": "scaffold sign"
+      },
+      {
+        "ratio": "1/1",
+        "variant": 5,
+        "hue": 20,
+        "label": "wayfinding"
+      }
+    ],
+    "youtube": "night recap — 3:10",
+    "soundcloud": "ambience loop — 22 min",
+    "videoId": "aqz-KE-bpKQ",
+    "variant": 3,
+    "hue": 20,
+    "tone": "dark",
+    "animate": "pulse"
+  },
+  {
+    "slug": "blok-7",
+    "title": "Blok 7",
+    "category": "events",
+    "categoryLabel": "Events",
+    "year": 2023,
+    "client": "Petržalka Anti-Conference",
+    "authors": "Majger",
+    "ratio": "3/4",
+    "placeholder": "concrete block",
+    "description": "A two-day anti-conference held inside the unused ground floor of a panel-block in Petržalka. The visual material is a single typewritten programme, photocopied to ninth-generation degradation.",
+    "role": "Print, signage",
+    "duration": "Nov 2023",
+    "gallery": [
+      {
+        "ratio": "1/1",
+        "variant": 1,
+        "hue": 26,
+        "label": "programme cover"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 4,
+        "hue": 26,
+        "label": "interior signage"
+      }
+    ],
+    "youtube": null,
+    "soundcloud": null,
+    "variant": 2,
+    "hue": 26,
+    "tone": "dark",
+    "animate": "shift"
+  },
+  {
+    "slug": "tatry-sessions",
+    "title": "Tatry Sessions",
+    "category": "music",
+    "categoryLabel": "Music",
+    "year": 2023,
+    "client": "Tatry Sessions o.z.",
+    "authors": "Majger",
+    "ratio": "1/1",
+    "placeholder": "session poster",
+    "description": "Five intimate concerts in mountain chalets across the High Tatras, one per peak. Each poster is a different stenographic abstraction of its mountain's silhouette, rendered as a low-resolution dot grid.",
+    "role": "Identity, posters, web",
+    "duration": "Summer 2023",
+    "gallery": [
+      {
+        "ratio": "3/4",
+        "variant": 1,
+        "hue": 26,
+        "label": "Kriváň poster"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 4,
+        "hue": 26,
+        "label": "Lomnický štít"
+      },
+      {
+        "ratio": "3/4",
+        "variant": 5,
+        "hue": 26,
+        "label": "Gerlachovský"
+      }
+    ],
+    "youtube": null,
+    "soundcloud": "Session 03 — live at Téryho",
+    "variant": 2,
+    "hue": 26,
+    "tone": "mid",
+    "animate": null
   }
 ]

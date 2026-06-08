@@ -1,0 +1,22 @@
+{
+  "title": "Studio Jednotky",
+  "year": 2025,
+  "client": "Studio Jednotky",
+  "authors": "Majger",
+  "ratio": "1/1",
+  "placeholder": "identity system",
+  "variant": 5,
+  "hue": 32,
+  "tone": "dark",
+  "animate": null,
+  "description": "Identity for a two-person architecture practice working between Bratislava and Brno. A single wordmark, set very tight, and a numbered system of stationery — every printed piece carries its sequence number.",
+  "role": "Identity, stationery, web",
+  "duration": "Jan 2025",
+  "gallery": [
+    { "ratio": "16/9", "variant": 0, "hue": 32, "label": "letterhead" },
+    { "ratio": "1/1",  "variant": 2, "hue": 32, "label": "card 001 / 100" },
+    { "ratio": "3/4",  "variant": 3, "hue": 32, "label": "tote" }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}

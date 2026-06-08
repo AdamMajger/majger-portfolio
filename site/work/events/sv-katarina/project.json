@@ -1,0 +1,22 @@
+{
+  "title": "Kostol sv. Kataríny",
+  "year": 2024,
+  "client": "Konvent klarisiek, Bratislava",
+  "authors": "Majger w/ Studio Plân",
+  "ratio": "3/4",
+  "placeholder": "church nave",
+  "variant": 4,
+  "hue": 32,
+  "tone": "dark",
+  "animate": null,
+  "description": "A one-evening sound and projection piece staged in the disused 14th-century Church of St. Catherine. The visual material was generated from rubbings of the floor stones, then redrawn for projection across the vault.",
+  "role": "Visual direction, projection content",
+  "duration": "Oct 2024",
+  "gallery": [
+    { "ratio": "21/9", "variant": 3, "hue": 32, "label": "nave projection" },
+    { "ratio": "3/4",  "variant": 1, "hue": 32, "label": "rubbing 04" },
+    { "ratio": "1/1",  "variant": 0, "hue": 32, "label": "programme cover" }
+  ],
+  "youtube": "evening recording — 14:50",
+  "soundcloud": null
+}
