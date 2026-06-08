@@ -4,19 +4,11 @@
   "client": "Self-initiated / Mlyn Kvačany",
   "authors": "Majger",
   "ratio": "4/5",
-  "placeholder": "stone mill",
-  "variant": 0,
-  "hue": 34,
-  "tone": "dark",
-  "animate": null,
+  "placeholder": "kamenný mlyn",
   "description": "Two acoustic nights inside a working watermill in Liptov. The whole identity is one poster, screenprinted on offcuts of millstone-grey paper, in editions of forty.",
   "role": "Identity, screenprint",
   "duration": "Jul 2024",
-  "gallery": [
-    { "ratio": "3/4",  "variant": 2, "hue": 34, "label": "screenprint — night 1" },
-    { "ratio": "3/4",  "variant": 4, "hue": 34, "label": "screenprint — night 2" },
-    { "ratio": "16/9", "variant": 5, "hue": 34, "label": "venue interior" }
-  ],
+  "gallery": [],
   "youtube": null,
-  "soundcloud": "Night 02 — Bára Vrkočová"
+  "soundcloud": null
 }
