@@ -44,12 +44,19 @@ for (const category of categories) {
     }
 
     const imgBase = `work/${category}/${slug}/`;
+    const projectDir = path.join(catDir, slug);
+
+    // If a .webp version exists alongside a file, use it instead
+    function preferWebp(file) {
+      const webp = file.replace(/\.(jpg|jpeg|png)$/i, ".webp");
+      return fs.existsSync(path.join(projectDir, webp)) ? webp : file;
+    }
 
     // Resolve gallery entries: { file } → { image }; placeholder entries pass through
     const gallery = (meta.gallery || []).map(g => {
       if (g.file) {
         const { file, ...rest } = g;
-        return { ...rest, image: imgBase + file };
+        return { ...rest, image: imgBase + preferWebp(file) };
       }
       return g;
     });
@@ -73,7 +80,7 @@ for (const category of categories) {
     };
 
     // Optional media fields — only added when present
-    if (meta.thumbnail)      project.image          = imgBase + meta.thumbnail;
+    if (meta.thumbnail)      project.image          = imgBase + preferWebp(meta.thumbnail);
     if (meta.youtubeThumbId) project.youtubeThumbId = meta.youtubeThumbId;
     if (meta.videoId)        project.videoId        = meta.videoId;
 
