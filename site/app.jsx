@@ -72,6 +72,7 @@ function Nav({ route, goTo, scrolled }) {
         <button className="nav__brand" onClick={() => goTo({ view: "work" })} aria-label="MAJGER home">
           <span className="nav__brand-name">MAJGER</span>
         </button>
+        <span style={{ fontFamily: "var(--mono)", fontSize: "11px", letterSpacing: "0.06em", color: "var(--muted)", textTransform: "uppercase" }}>VYFAJCI MI KOKOT</span>
         <nav className="nav__links">
           {items.map((it) => {
             const isActive = route.view === it.id || (it.id === "work" && route.view === "project");
