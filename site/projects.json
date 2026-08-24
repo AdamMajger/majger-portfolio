@@ -34,46 +34,6 @@
     "image": "work/design/garaz/thumbnail.webp"
   },
   {
-    "slug": "burina",
-    "title": "Burina",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2025,
-    "client": "Divadlo NUDE, Košice",
-    "authors": "Majger / Director: V. Bárdoš",
-    "ratio": "3/4",
-    "placeholder": "theatre poster",
-    "description": "Visual identity for a chamber play about an overgrown garden that won't be tamed. The title is set in a single overgrown weight that thickens and tangles across each printed piece, the typography itself going to seed.",
-    "role": "Identity, poster, programme",
-    "duration": "Mar 2025",
-    "gallery": [
-      {
-        "ratio": "3/4",
-        "variant": 0,
-        "hue": 30,
-        "label": "A1 poster"
-      },
-      {
-        "ratio": "16/9",
-        "variant": 2,
-        "hue": 30,
-        "label": "lobby banner"
-      },
-      {
-        "ratio": "1/1",
-        "variant": 4,
-        "hue": 30,
-        "label": "social tile"
-      }
-    ],
-    "youtube": "trailer — 0:42",
-    "soundcloud": null,
-    "variant": 5,
-    "hue": 30,
-    "tone": "dark",
-    "animate": null
-  },
-  {
     "slug": "nocturno-mv",
     "title": "Nocturno — music video",
     "category": "music",
@@ -215,46 +175,6 @@
     "youtubeThumbId": "1hkDjC7uWZg"
   },
   {
-    "slug": "garaz-49",
-    "title": "Garáž 49",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2024,
-    "client": "Garáž 49 / Self-initiated",
-    "authors": "Majger / Light: J. Krištof",
-    "ratio": "4/3",
-    "placeholder": "garage interior",
-    "description": "Three nights of experimental sound staged inside an abandoned commercial garage on the edge of Petržalka. The visual language responded to what was already there — chipped paint, cable conduits, fluorescent strips — and added almost nothing.",
-    "role": "Spatial concept, signage, print",
-    "duration": "Apr 2024",
-    "gallery": [
-      {
-        "ratio": "16/9",
-        "variant": 0,
-        "hue": 24,
-        "label": "interior wide"
-      },
-      {
-        "ratio": "1/1",
-        "variant": 5,
-        "hue": 24,
-        "label": "wayfinding sticker"
-      },
-      {
-        "ratio": "4/5",
-        "variant": 2,
-        "hue": 24,
-        "label": "programme zine"
-      }
-    ],
-    "youtube": "documentation — 2:08",
-    "soundcloud": "night 02 — full set",
-    "variant": 1,
-    "hue": 24,
-    "tone": "dark",
-    "animate": "shift"
-  },
-  {
     "slug": "kamenny-mlyn",
     "title": "Kamenný mlyn",
     "category": "music",
@@ -270,52 +190,6 @@
     "gallery": [],
     "youtube": null,
     "soundcloud": null
-  },
-  {
-    "slug": "mestske-divadlo",
-    "title": "Mestské Divadlo — 24/25",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2024,
-    "client": "Mestské Divadlo Žilina",
-    "authors": "Majger / Studio Marno",
-    "ratio": "4/3",
-    "placeholder": "season identity",
-    "description": "Season identity for the 24/25 programme — six productions, six covers, one shared modular grid. Each cover is a single photographic motif crossed by the same fine yellow ruling.",
-    "role": "Season identity, programmes",
-    "duration": "Aug 2024",
-    "gallery": [
-      {
-        "ratio": "3/4",
-        "variant": 0,
-        "hue": 30,
-        "label": "programme A — cover"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 3,
-        "hue": 30,
-        "label": "programme B"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 5,
-        "hue": 30,
-        "label": "programme C"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 4,
-        "hue": 30,
-        "label": "programme D"
-      }
-    ],
-    "youtube": "season trailer — 1:08",
-    "soundcloud": null,
-    "variant": 1,
-    "hue": 30,
-    "tone": "dark",
-    "animate": null
   },
   {
     "slug": "nizke-tatry-zine",
@@ -358,46 +232,6 @@
     "animate": null
   },
   {
-    "slug": "sv-katarina",
-    "title": "Kostol sv. Kataríny",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2024,
-    "client": "Konvent klarisiek, Bratislava",
-    "authors": "Majger w/ Studio Plân",
-    "ratio": "3/4",
-    "placeholder": "church nave",
-    "description": "A one-evening sound and projection piece staged in the disused 14th-century Church of St. Catherine. The visual material was generated from rubbings of the floor stones, then redrawn for projection across the vault.",
-    "role": "Visual direction, projection content",
-    "duration": "Oct 2024",
-    "gallery": [
-      {
-        "ratio": "21/9",
-        "variant": 3,
-        "hue": 32,
-        "label": "nave projection"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 1,
-        "hue": 32,
-        "label": "rubbing 04"
-      },
-      {
-        "ratio": "1/1",
-        "variant": 0,
-        "hue": 32,
-        "label": "programme cover"
-      }
-    ],
-    "youtube": "evening recording — 14:50",
-    "soundcloud": null,
-    "variant": 4,
-    "hue": 32,
-    "tone": "dark",
-    "animate": null
-  },
-  {
     "slug": "youtopia",
     "title": "Youtopia",
     "category": "design",
@@ -414,40 +248,6 @@
     "youtube": null,
     "soundcloud": null,
     "image": "work/design/youtopia/thumbnail.mp4"
-  },
-  {
-    "slug": "blok-7",
-    "title": "Blok 7",
-    "category": "events",
-    "categoryLabel": "Events",
-    "year": 2023,
-    "client": "Petržalka Anti-Conference",
-    "authors": "Majger",
-    "ratio": "3/4",
-    "placeholder": "concrete block",
-    "description": "A two-day anti-conference held inside the unused ground floor of a panel-block in Petržalka. The visual material is a single typewritten programme, photocopied to ninth-generation degradation.",
-    "role": "Print, signage",
-    "duration": "Nov 2023",
-    "gallery": [
-      {
-        "ratio": "1/1",
-        "variant": 1,
-        "hue": 26,
-        "label": "programme cover"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 4,
-        "hue": 26,
-        "label": "interior signage"
-      }
-    ],
-    "youtube": null,
-    "soundcloud": null,
-    "variant": 2,
-    "hue": 26,
-    "tone": "dark",
-    "animate": "shift"
   },
   {
     "slug": "tatry-sessions",
