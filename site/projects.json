@@ -34,89 +34,6 @@
     "image": "work/design/garaz/thumbnail.webp"
   },
   {
-    "slug": "nocturno-mv",
-    "title": "Nocturno — music video",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2025,
-    "client": "Self-released",
-    "authors": "Majger / Dir: T. Hraška",
-    "ratio": "16/9",
-    "placeholder": "music video",
-    "description": "Music-video direction and visual identity for the single 'Nocturno'. Shot over one night in three locations across central Bratislava — an empty multi-storey carpark, an underpass, and a rooftop on Račianska. The cover art and lyric video reuse the same three frames, regraded and retitled.",
-    "role": "Direction, identity, lyric video",
-    "duration": "Feb 2025",
-    "gallery": [
-      {
-        "ratio": "16/9",
-        "variant": 0,
-        "hue": 24,
-        "label": "stills — carpark"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 2,
-        "hue": 24,
-        "label": "cover art"
-      },
-      {
-        "ratio": "16/9",
-        "variant": 4,
-        "hue": 24,
-        "label": "stills — rooftop"
-      }
-    ],
-    "youtube": "music video — 3:48",
-    "soundcloud": "Nocturno — single",
-    "youtubeThumbId": "e6ku-fpp16s"
-  },
-  {
-    "slug": "pohlad-na-noc",
-    "title": "Pohľad na noc",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2025,
-    "client": "Stará tržnica, Bratislava",
-    "authors": "Majger / Foto: B. Sedláková",
-    "ratio": "4/5",
-    "placeholder": "concert poster",
-    "description": "A nocturnal concert series held in the high-vaulted Stará Tržnica through the autumn months. The identity leans on a single graphic mark that mutates across posters, programmes and stage projection — a quiet, repeated gesture against the noise of the city outside.",
-    "role": "Identity, posters, stage visuals",
-    "duration": "Sep — Nov 2025",
-    "gallery": [
-      {
-        "ratio": "16/9",
-        "variant": 1,
-        "hue": 28,
-        "label": "stage projection still"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 2,
-        "hue": 28,
-        "label": "poster A2"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 4,
-        "hue": 28,
-        "label": "poster A2 — variant"
-      },
-      {
-        "ratio": "21/9",
-        "variant": 3,
-        "hue": 28,
-        "label": "venue install"
-      }
-    ],
-    "youtube": "case-study reel — 1:42",
-    "soundcloud": "set / atmosphere — 38 min",
-    "variant": 0,
-    "hue": 28,
-    "tone": "dark",
-    "animate": "pulse"
-  },
-  {
     "slug": "studio-jednotky",
     "title": "Studio Jednotky",
     "category": "design",
@@ -175,23 +92,6 @@
     "youtubeThumbId": "1hkDjC7uWZg"
   },
   {
-    "slug": "kamenny-mlyn",
-    "title": "Kamenný mlyn",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2024,
-    "client": "Self-initiated / Mlyn Kvačany",
-    "authors": "Majger",
-    "ratio": "4/5",
-    "placeholder": "kamenný mlyn",
-    "description": "Two acoustic nights inside a working watermill in Liptov. The whole identity is one poster, screenprinted on offcuts of millstone-grey paper, in editions of forty.",
-    "role": "Identity, screenprint",
-    "duration": "Jul 2024",
-    "gallery": [],
-    "youtube": null,
-    "soundcloud": null
-  },
-  {
     "slug": "nizke-tatry-zine",
     "title": "Nízke Tatry — zine 02",
     "category": "design",
@@ -248,45 +148,5 @@
     "youtube": null,
     "soundcloud": null,
     "image": "work/design/youtopia/thumbnail.mp4"
-  },
-  {
-    "slug": "tatry-sessions",
-    "title": "Tatry Sessions",
-    "category": "music",
-    "categoryLabel": "Music",
-    "year": 2023,
-    "client": "Tatry Sessions o.z.",
-    "authors": "Majger",
-    "ratio": "1/1",
-    "placeholder": "session poster",
-    "description": "Five intimate concerts in mountain chalets across the High Tatras, one per peak. Each poster is a different stenographic abstraction of its mountain's silhouette, rendered as a low-resolution dot grid.",
-    "role": "Identity, posters, web",
-    "duration": "Summer 2023",
-    "gallery": [
-      {
-        "ratio": "3/4",
-        "variant": 1,
-        "hue": 26,
-        "label": "Kriváň poster"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 4,
-        "hue": 26,
-        "label": "Lomnický štít"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 5,
-        "hue": 26,
-        "label": "Gerlachovský"
-      }
-    ],
-    "youtube": null,
-    "soundcloud": "Session 03 — live at Téryho",
-    "variant": 2,
-    "hue": 26,
-    "tone": "mid",
-    "animate": null
   }
 ]
