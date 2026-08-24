@@ -34,46 +34,6 @@
     "image": "work/design/garaz/thumbnail.webp"
   },
   {
-    "slug": "studio-jednotky",
-    "title": "Studio Jednotky",
-    "category": "design",
-    "categoryLabel": "Design",
-    "year": 2025,
-    "client": "Studio Jednotky",
-    "authors": "Majger",
-    "ratio": "1/1",
-    "placeholder": "identity system",
-    "description": "Identity for a two-person architecture practice working between Bratislava and Brno. A single wordmark, set very tight, and a numbered system of stationery — every printed piece carries its sequence number.",
-    "role": "Identity, stationery, web",
-    "duration": "Jan 2025",
-    "gallery": [
-      {
-        "ratio": "16/9",
-        "variant": 0,
-        "hue": 32,
-        "label": "letterhead"
-      },
-      {
-        "ratio": "1/1",
-        "variant": 2,
-        "hue": 32,
-        "label": "card 001 / 100"
-      },
-      {
-        "ratio": "3/4",
-        "variant": 3,
-        "hue": 32,
-        "label": "tote"
-      }
-    ],
-    "youtube": null,
-    "soundcloud": null,
-    "variant": 5,
-    "hue": 32,
-    "tone": "dark",
-    "animate": null
-  },
-  {
     "slug": "The Glasses - Anjel WC40 feat. Ježišmária",
     "title": "The Glasses — Anjel WC40 feat. Ježišmária",
     "category": "music",
@@ -90,46 +50,6 @@
     "youtube": "Anjel WC40 feat. Ježišmária",
     "soundcloud": null,
     "youtubeThumbId": "1hkDjC7uWZg"
-  },
-  {
-    "slug": "nizke-tatry-zine",
-    "title": "Nízke Tatry — zine 02",
-    "category": "design",
-    "categoryLabel": "Design",
-    "year": 2024,
-    "client": "Self-initiated",
-    "authors": "Majger / Photo: P. Vavrek",
-    "ratio": "3/4",
-    "placeholder": "zine spread",
-    "description": "Second issue of a self-published photo zine documenting unmarked trails through the Low Tatras. 48 pages, two-colour risograph, edition of 200.",
-    "role": "Editorial, print",
-    "duration": "Sep 2024",
-    "gallery": [
-      {
-        "ratio": "3/4",
-        "variant": 0,
-        "hue": 28,
-        "label": "cover"
-      },
-      {
-        "ratio": "16/9",
-        "variant": 1,
-        "hue": 28,
-        "label": "spread 12-13"
-      },
-      {
-        "ratio": "16/9",
-        "variant": 5,
-        "hue": 28,
-        "label": "spread 28-29"
-      }
-    ],
-    "youtube": null,
-    "soundcloud": null,
-    "variant": 4,
-    "hue": 28,
-    "tone": "dark",
-    "animate": null
   },
   {
     "slug": "youtopia",
