@@ -14,7 +14,12 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
 
       {/* Hero image */}
       <section className="detail__hero">
-        {project.image ?
+        {project.image && project.image.endsWith(".mp4") ?
+          <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--card-bg)", maxHeight: "78vh", display: "flex" }}>
+            <video src={project.image} autoPlay muted loop playsInline
+                   style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
+          </div>
+        : project.image ?
           <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--card-bg)", maxHeight: "78vh", display: "flex" }}>
             <img src={project.image} alt={project.title}
                  style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
@@ -54,7 +59,12 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
           const fullBleed = !g.image && (i % 3 === 1 || g.ratio === "21/9" || g.ratio === "16/9");
           return (
             <div key={i} className={"detail__row " + (fullBleed ? "detail__row--full" : "detail__row--std")}>
-              {g.image ?
+              {g.image && g.image.endsWith(".mp4") ?
+                <div className="ph ph--image" style={{ overflow: "hidden", background: "var(--card-bg)" }}>
+                  <video src={g.image} autoPlay muted loop playsInline
+                         style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              : g.image ?
                 <div className="ph ph--image" style={{ overflow: "hidden", background: "var(--card-bg)" }}>
                   <img src={g.image} alt={g.label}
                        style={{ width: "100%", height: "auto", display: "block" }} />
