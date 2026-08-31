@@ -9,7 +9,7 @@ function App() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    fetch("projects.json")
+    fetch("projects.json?v=" + Date.now())
       .then(r => r.json())
       .then(data => setProjects(data));
   }, []);
