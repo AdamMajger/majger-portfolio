@@ -2,9 +2,30 @@
 
 const { useState, useEffect } = React;
 
+// ---- URL routing -----------------------------------------------------------
+// Routes map to real paths so each view is linkable and the browser back
+// button works: /work, /about, /work/<slug>. Requires the server to rewrite
+// unknown paths to index.html (see .htaccess) — otherwise a refresh 404s.
+
+function routeToPath(route) {
+  if (route.view === "profile") return "/about";
+  if (route.view === "project") return "/work/" + encodeURIComponent(route.project);
+  return "/work";
+}
+
+function pathToRoute(pathname) {
+  const parts = pathname.replace(/^\/+|\/+$/g, "").split("/");
+
+  if (parts[0] === "about")  return { view: "profile" };
+  if (parts[0] === "work" && parts[1]) {
+    return { view: "project", project: decodeURIComponent(parts[1]) };
+  }
+  return { view: "work" };
+}
+
 function App() {
   const [projects, setProjects] = useState(null);
-  const [route, setRoute] = useState({ view: "work" });
+  const [route, setRoute] = useState(() => pathToRoute(location.pathname));
   const [activeCat, setActiveCat] = useState("all");
   const [scrolled, setScrolled] = useState(false);
 
@@ -28,10 +49,26 @@ function App() {
     return () => stage.removeEventListener("scroll", onScroll);
   }, []);
 
+  // Browser back/forward: adopt whatever route the popped history entry holds.
+  useEffect(() => {
+    const onPopState = (e) => setRoute(e.state || pathToRoute(location.pathname));
+    addEventListener("popstate", onPopState);
+    return () => removeEventListener("popstate", onPopState);
+  }, []);
+
+  // Give the first render a state object, so returning to it via back works.
+  useEffect(() => {
+    history.replaceState(route, "", routeToPath(route));
+  }, []);
+
   if (!projects) return <div style={{ height: "100%", background: "var(--bg)" }} />;
 
-  const goTo = (next) => setRoute(next);
-  const openProject = (slug) => setRoute({ view: "project", project: slug });
+  const goTo = (next) => {
+    const path = routeToPath(next);
+    if (path !== location.pathname) history.pushState(next, "", path);
+    setRoute(next);
+  };
+  const openProject = (slug) => goTo({ view: "project", project: slug });
 
   const currentProject = route.view === "project"
     ? projects.find((p) => p.slug === route.project)
