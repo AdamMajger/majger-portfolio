@@ -8,7 +8,29 @@
   "description": "",
   "role": "",
   "duration": "",
-  "gallery": [],
+  "gallery": [
+    {
+      "file": "behance-v01a.jpg",
+      "ratio": "16/9",
+      "label": ""
+    },
+    {
+      "file": "behance-v01b.jpg",
+      "ratio": "16/9",
+      "label": ""
+    },
+    {
+      "file": "behance-v01c.jpg",
+      "ratio": "16/9",
+      "label": ""
+    },
+    {
+      "file": "behance-v01d.jpg",
+      "ratio": "16/9",
+      "label": ""
+    }
+  ],
   "youtube": null,
-  "soundcloud": null
+  "soundcloud": null,
+  "thumbnail": "thumbnail.mp4"
 }
