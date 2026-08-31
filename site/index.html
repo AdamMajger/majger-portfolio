@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Routes like /work/Sando are served by this same file, so relative asset
+       URLs must resolve from the site root, not the current path. -->
+  <base href="/" />
   <title>MAJGER — event &amp; visual design / Bratislava</title>
   <link rel="stylesheet" href="styles.css?v=8092e095" />
   <script src="vendor/react.min.js"></script>
@@ -15,6 +18,6 @@
   <script type="text/babel" src="work.jsx?v=d07bbfec"></script>
   <script type="text/babel" src="detail.jsx?v=1236d5be"></script>
   <script type="text/babel" src="profile.jsx?v=a4e4e7ec"></script>
-  <script type="text/babel" src="app.jsx?v=04ad28a6"></script>
+  <script type="text/babel" src="app.jsx?v=a71ceef3"></script>
 </body>
 </html>
