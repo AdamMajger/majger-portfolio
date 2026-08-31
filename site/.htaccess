@@ -1,0 +1,26 @@
+# Single-page app routing.
+# The site renders /work, /about and /work/<slug> client-side, so those paths
+# have no file on disk. Serve index.html for anything that isn't a real file
+# and let the JS router read the URL. Without this, refreshing or opening a
+# deep link returns 404.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Leave real files and directories alone (images, css, jsx, projects.json…)
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Everything else renders the app
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# projects.json is fetched with a cache-busting query string, but make the
+# intent explicit so no proxy holds on to a stale copy.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(json|jsx)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
