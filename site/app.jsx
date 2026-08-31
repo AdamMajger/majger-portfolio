@@ -71,6 +71,7 @@ function Nav({ route, goTo, scrolled }) {
       <div className="nav__inner" style={{ padding: "20px 40px 0px" }}>
         <button className="nav__brand" onClick={() => goTo({ view: "work" })} aria-label="MAJGER home">
           <span className="nav__brand-name">MAJGER</span>
+          <span style={{ fontFamily: "var(--mono)", fontSize: "11px", letterSpacing: "0.06em", color: "var(--accent)", marginLeft: "12px" }}>BANANA</span>
         </button>
 <nav className="nav__links">
           {items.map((it) => {
