@@ -1,8 +1,9 @@
 // Scans site/work/<category>/<project>/project.json files and
 // generates site/projects.json. Run locally or via GitHub Actions.
 
-const fs   = require("fs");
-const path = require("path");
+const fs     = require("fs");
+const path   = require("path");
+const crypto = require("crypto");
 
 const WORK_DIR = path.join(__dirname, "..", "site", "work");
 const OUTPUT   = path.join(__dirname, "..", "site", "projects.json");
@@ -108,3 +109,32 @@ projects.forEach(p => delete p.order);
 
 fs.writeFileSync(OUTPUT, JSON.stringify(projects, null, 2) + "\n");
 console.log(`✓ projects.json — ${projects.length} projects`);
+
+// Cache busting: stamp each local .jsx / .css reference in index.html with a
+// short hash of that file's contents, so browsers refetch a file only when it
+// actually changed. Re-running with no edits produces an identical index.html,
+// which keeps the build idempotent and avoids empty commits.
+const SITE  = path.join(__dirname, "..", "site");
+const INDEX = path.join(SITE, "index.html");
+
+const hashOf = (file) => {
+  const full = path.join(SITE, file);
+  if (!fs.existsSync(full)) return null;
+  return crypto.createHash("sha1").update(fs.readFileSync(full)).digest("hex").slice(0, 8);
+};
+
+let html = fs.readFileSync(INDEX, "utf8");
+let stamped = 0;
+
+html = html.replace(
+  /((?:href|src)=")([^"?]+\.(?:jsx|css))(?:\?v=[^"]*)?(")/g,
+  (match, prefix, file, suffix) => {
+    const hash = hashOf(file);
+    if (!hash) return match;
+    stamped++;
+    return `${prefix}${file}?v=${hash}${suffix}`;
+  }
+);
+
+fs.writeFileSync(INDEX, html);
+console.log(`✓ index.html — ${stamped} assets cache-stamped`);
