@@ -46,9 +46,31 @@
     "description": "",
     "role": "",
     "duration": "",
-    "gallery": [],
+    "gallery": [
+      {
+        "ratio": "16/9",
+        "label": "",
+        "image": "work/design/Sando/behance-v01a.webp"
+      },
+      {
+        "ratio": "16/9",
+        "label": "",
+        "image": "work/design/Sando/behance-v01b.webp"
+      },
+      {
+        "ratio": "16/9",
+        "label": "",
+        "image": "work/design/Sando/behance-v01c.webp"
+      },
+      {
+        "ratio": "16/9",
+        "label": "",
+        "image": "work/design/Sando/behance-v01d.webp"
+      }
+    ],
     "youtube": null,
-    "soundcloud": null
+    "soundcloud": null,
+    "image": "work/design/Sando/thumbnail.mp4"
   },
   {
     "slug": "The Glasses - Anjel WC40 feat. Ježišmária",
