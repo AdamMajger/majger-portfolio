@@ -34,6 +34,23 @@
     "image": "work/design/garaz/thumbnail.webp"
   },
   {
+    "slug": "Sando",
+    "title": "Sando",
+    "category": "design",
+    "categoryLabel": "Design",
+    "year": 2025,
+    "client": "",
+    "authors": "Majger",
+    "ratio": "4/5",
+    "placeholder": "sando",
+    "description": "",
+    "role": "",
+    "duration": "",
+    "gallery": [],
+    "youtube": null,
+    "soundcloud": null
+  },
+  {
     "slug": "The Glasses - Anjel WC40 feat. Ježišmária",
     "title": "The Glasses — Anjel WC40 feat. Ježišmária",
     "category": "music",
