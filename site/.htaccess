@@ -1,16 +1,26 @@
 # Single-page app routing.
 # The site renders /work, /about and /work/<slug> client-side, so those paths
 # have no file on disk. Serve index.html for anything that isn't a real file
-# and let the JS router read the URL. Without this, refreshing or opening a
-# deep link returns 404.
+# and let the JS router read the URL.
+
+# No directory listings. This matters because the route namespace /work/...
+# overlaps the real media directory work/ — without this, Apache answers
+# /work/ with a listing or a 403 instead of the app.
+Options -Indexes
+
+# Don't let mod_dir 301-redirect /work to /work/ before the rewrite runs.
+<IfModule mod_dir.c>
+  DirectorySlash Off
+</IfModule>
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
 
-  # Leave real files and directories alone (images, css, jsx, projects.json…)
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
+  # Serve real FILES as-is: images, video, css, jsx, projects.json…
+  # Deliberately NOT exempting directories: work/ exists on disk, and a request
+  # for /work/ must render the app, not the folder.
+  RewriteCond %{REQUEST_FILENAME} -f
   RewriteRule ^ - [L]
 
   # Everything else renders the app
