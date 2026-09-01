@@ -74,11 +74,15 @@ function App() {
     ? projects.find((p) => p.slug === route.project)
     : null;
 
+  // An unknown slug (a stale link, or a real folder like /work/design that
+  // isn't a project) would otherwise render an empty page — fall back to the grid.
+  const showWork = route.view === "work" || (route.view === "project" && !currentProject);
+
   return (
     <div className="app">
       <Nav route={route} goTo={goTo} scrolled={scrolled} />
       <div className="stage">
-        {route.view === "work" && (
+        {showWork && (
           <Work
             projects={projects}
             activeCat={activeCat}
