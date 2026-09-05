@@ -513,7 +513,6 @@ a:hover, button:hover { color: var(--fg); }
   max-width: var(--max-w);
   margin: 120px auto 0;
   padding: 60px var(--pad-x) 80px;
-  border-top: 1px solid var(--line);
 }
 .detail__next-mono {
   font-family: var(--mono); font-size: 11px;
