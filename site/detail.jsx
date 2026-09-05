@@ -50,12 +50,17 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
         <div className="detail__head-left">
           <div className="detail__mono">[ {project.categoryLabel} · {project.year} ]</div>
           <h1 className="detail__title">{project.title}</h1>
+          {/* Only rows with a value — an empty field leaves no blank line behind. */}
           <dl className="detail__meta">
-            <div className="detail__meta-row"><dt>Client</dt><dd>{project.client}</dd></div>
-            <div className="detail__meta-row"><dt>Authors</dt><dd>{project.authors}</dd></div>
-            <div className="detail__meta-row"><dt>Role</dt><dd>{project.role}</dd></div>
-            <div className="detail__meta-row"><dt>Period</dt><dd>{project.duration}</dd></div>
-            <div className="detail__meta-row"><dt>Category</dt><dd>{project.categoryLabel}</dd></div>
+            {[
+              ["Client",   project.client],
+              ["Authors",  project.authors],
+              ["Role",     project.role],
+              ["Period",   project.duration],
+              ["Category", project.categoryLabel],
+            ].filter(([, value]) => value).map(([label, value]) => (
+              <div className="detail__meta-row" key={label}><dt>{label}</dt><dd>{value}</dd></div>
+            ))}
           </dl>
         </div>
         <div className="detail__head-right">
