@@ -25,6 +25,14 @@
       "file": "lineup.jpg",
       "ratio": "4/5",
       "label": "line-up announcement"
+    },
+    {
+      "file": "porota-masatova.png",
+      "label": "porota — Anna Masatova"
+    },
+    {
+      "file": "gastro.png",
+      "label": "gastro"
     }
   ],
   "youtube": null,
