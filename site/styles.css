@@ -406,9 +406,30 @@ a:hover, button:hover { color: var(--fg); }
   flex-direction: column;
   align-items: flex-start;
 }
-/* Both row types span the full content width, matching the hero and title. */
+/* All row types span the full content width, matching the hero and title. */
 .detail__row--full,
-.detail__row--std { max-width: var(--max-w); padding: 0 var(--pad-x); width: 100%; }
+.detail__row--std,
+.detail__row--grid { max-width: var(--max-w); padding: 0 var(--pad-x); width: 100%; }
+
+/* Portrait images sit several to a row — 3 across, dropping to 2 then 1 as the
+   screen narrows. `auto-fit` keeps a short run (say two images) filling the
+   row rather than leaving an empty third column. */
+.detail__row--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--gutter);
+  align-items: start;
+}
+@media (min-width: 1100px) {
+  .detail__row--grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 1099px) and (min-width: 761px) {
+  .detail__row--grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 760px) {
+  .detail__row--grid { grid-template-columns: 1fr; }
+}
+.detail__cell { min-width: 0; }
 .detail__row .ph { width: 100%; margin: 0; }
 
 /* Embeds */
