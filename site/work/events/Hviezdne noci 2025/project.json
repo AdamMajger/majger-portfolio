@@ -3,12 +3,46 @@
   "year": 2025,
   "client": "Me",
   "authors": "Kristína Majger, Richard Michalík, Karolína Majková",
-  "ratio": "4/5",
+  "ratio": "3/2",
   "placeholder": "hviezdne noci",
   "description": "",
   "role": "",
   "duration": "2025",
-  "gallery": [],
+  "gallery": [
+    {
+      "file": "048_0000_107.jpg",
+      "label": ""
+    },
+    {
+      "file": "048_0002_181.jpg",
+      "label": ""
+    },
+    {
+      "file": "048_0003_163.jpg",
+      "label": ""
+    },
+    {
+      "file": "048_0004_157.jpg",
+      "label": ""
+    },
+    {
+      "file": "048_0005_128.jpg",
+      "label": ""
+    },
+    {
+      "file": "048_0006_095.jpg",
+      "label": ""
+    },
+    {
+      "file": "048_0007_084.jpg",
+      "label": ""
+    },
+    {
+      "file": "048_0008_Background.jpg",
+      "label": ""
+    }
+  ],
   "youtube": null,
-  "soundcloud": null
+  "soundcloud": null,
+  "thumbnail": "thumbnail.jpg"
 }
