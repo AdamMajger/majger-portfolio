@@ -15,12 +15,12 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
       {/* Hero image */}
       <section className="detail__hero">
         {project.image && project.image.endsWith(".mp4") ?
-          <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--card-bg)", maxHeight: "78vh", display: "flex" }}>
+          <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--bg)", maxHeight: "78vh", display: "flex" }}>
             <video src={project.image} autoPlay muted loop playsInline
                    style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
           </div>
         : project.image ?
-          <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--card-bg)", maxHeight: "78vh", display: "flex" }}>
+          <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--bg)", maxHeight: "78vh", display: "flex" }}>
             <img src={project.image} alt={project.title}
                  style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
           </div>
