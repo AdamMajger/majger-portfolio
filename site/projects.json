@@ -56,14 +56,56 @@
     "year": 2025,
     "client": "Me",
     "authors": "Kristína Majger, Richard Michalík, Karolína Majková",
-    "ratio": "4/5",
+    "ratio": "3/2",
     "placeholder": "hviezdne noci",
     "description": "",
     "role": "",
     "duration": "2025",
-    "gallery": [],
+    "gallery": [
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0000_107.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0002_181.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0003_163.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0004_157.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0005_128.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0006_095.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0007_084.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0008_Background.webp",
+        "ratio": "1400/927"
+      }
+    ],
     "youtube": null,
-    "soundcloud": null
+    "soundcloud": null,
+    "image": "work/events/Hviezdne noci 2025/thumbnail.webp"
   },
   {
     "slug": "Sando",
