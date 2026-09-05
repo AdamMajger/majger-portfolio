@@ -395,7 +395,9 @@ a:hover, button:hover { color: var(--fg); }
 /* Gallery rows */
 .detail__gallery { margin: 80px 0 0; }
 .detail__row {
-  margin: 0 0 80px;
+  /* `auto` keeps the max-width box centred like every other container; the
+     content inside is left-aligned by align-items, not by killing the margin. */
+  margin: 0 auto 80px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -658,13 +660,16 @@ a:hover, button:hover { color: var(--fg); }
 /* ========== Footer ========== */
 .footer {
   margin-top: 80px;
-  padding: 80px var(--pad-x) 32px;
+  /* Side padding belongs on the inner max-width boxes, not the full-bleed
+     band — otherwise the footer sits one --pad-x inside every other section. */
+  padding: 80px 0 32px;
   background: #08070a;
   border-top: 1px solid var(--line);
 }
 .footer__row {
   max-width: var(--max-w);
   margin: 0 auto;
+  padding: 0 var(--pad-x);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
@@ -688,7 +693,7 @@ a:hover, button:hover { color: var(--fg); }
 .footer__bottom {
   max-width: var(--max-w);
   margin: 80px auto 0;
-  padding-top: 32px;
+  padding: 32px var(--pad-x) 0;
   border-top: 1px solid var(--line);
   display: flex; align-items: baseline; justify-content: space-between;
 }
