@@ -24,6 +24,15 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
             <img src={project.image} alt={project.title}
                  style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
           </div>
+        : project.youtubeThumbId ?
+          /* No still image, but a video — play it as the hero. */
+          <div className="detail__hero-video">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${project.youtubeThumbId}?rel=0&modestbranding=1`}
+              title={project.title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen />
+          </div>
         :
           <Placeholder
             label={project.placeholder + " — hero"}
