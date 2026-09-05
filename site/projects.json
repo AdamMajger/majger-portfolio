@@ -16,17 +16,20 @@
       {
         "ratio": "4/5",
         "label": "key visual — garážou to začína",
-        "image": "work/design/garaz/thumbnail.webp"
+        "image": "work/design/garaz/thumbnail.webp",
+        "portrait": true
       },
       {
         "ratio": "4/5",
         "label": "porota — jury reveal",
-        "image": "work/design/garaz/porota.webp"
+        "image": "work/design/garaz/porota.webp",
+        "portrait": true
       },
       {
         "ratio": "4/5",
         "label": "line-up announcement",
-        "image": "work/design/garaz/lineup.webp"
+        "image": "work/design/garaz/lineup.webp",
+        "portrait": true
       }
     ],
     "youtube": null,
@@ -48,22 +51,22 @@
     "duration": "",
     "gallery": [
       {
-        "ratio": "16/9",
+        "ratio": "1400/787",
         "label": "",
         "image": "work/design/Sando/behance-v01a.webp"
       },
       {
-        "ratio": "16/9",
+        "ratio": "1400/787",
         "label": "",
         "image": "work/design/Sando/behance-v01b.webp"
       },
       {
-        "ratio": "16/9",
+        "ratio": "1400/787",
         "label": "",
         "image": "work/design/Sando/behance-v01c.webp"
       },
       {
-        "ratio": "16/9",
+        "ratio": "1400/787",
         "label": "",
         "image": "work/design/Sando/behance-v01d.webp"
       }
