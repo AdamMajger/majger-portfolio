@@ -8,6 +8,59 @@ const crypto = require("crypto");
 const WORK_DIR = path.join(__dirname, "..", "site", "work");
 const OUTPUT   = path.join(__dirname, "..", "site", "projects.json");
 
+// Read pixel dimensions straight from the file header — PNG, JPEG and WebP.
+// Done by hand rather than with a library so the GitHub Action can run plain
+// `node` with no install step. Returns null for anything unrecognised.
+function imageSize(file) {
+  let buf;
+  try { buf = fs.readFileSync(file); } catch { return null; }
+  if (buf.length < 24) return null;
+
+  // PNG: width/height are big-endian uint32s in the IHDR chunk
+  if (buf.readUInt32BE(0) === 0x89504e47) {
+    return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
+  }
+
+  // WebP: "RIFF"…"WEBP", then a VP8 / VP8L / VP8X chunk
+  if (buf.toString("ascii", 0, 4) === "RIFF" && buf.toString("ascii", 8, 12) === "WEBP") {
+    const chunk = buf.toString("ascii", 12, 16);
+    if (chunk === "VP8 ") {
+      return { w: buf.readUInt16LE(26) & 0x3fff, h: buf.readUInt16LE(28) & 0x3fff };
+    }
+    if (chunk === "VP8L") {
+      const b = buf.readUInt32LE(21);
+      return { w: (b & 0x3fff) + 1, h: ((b >> 14) & 0x3fff) + 1 };
+    }
+    if (chunk === "VP8X") {
+      const rd24 = (o) => buf[o] | (buf[o + 1] << 8) | (buf[o + 2] << 16);
+      return { w: rd24(24) + 1, h: rd24(27) + 1 };
+    }
+    return null;
+  }
+
+  // JPEG: walk the marker segments looking for a start-of-frame
+  if (buf[0] === 0xff && buf[1] === 0xd8) {
+    let off = 2;
+    while (off + 9 < buf.length) {
+      if (buf[off] !== 0xff) { off++; continue; }
+      const marker = buf[off + 1];
+      // SOF0-SOF15, excluding DHT/JPG/DAC which share the range
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+        return { h: buf.readUInt16BE(off + 5), w: buf.readUInt16BE(off + 7) };
+      }
+      off += 2 + buf.readUInt16BE(off + 2);
+    }
+  }
+  return null;
+}
+
+// "1080x1350" -> "4/5", so the CSS aspect-ratio stays human-readable
+function ratioString(w, h) {
+  const gcd = (a, b) => (b ? gcd(b, a % b) : a);
+  const g = gcd(w, h);
+  return `${w / g}/${h / g}`;
+}
+
 const CATEGORY_LABELS = {
   design: "Design",
   events: "Events",
@@ -53,11 +106,20 @@ for (const category of categories) {
       return fs.existsSync(path.join(projectDir, webp)) ? webp : file;
     }
 
-    // Resolve gallery entries: { file } → { image }; placeholder entries pass through
+    // Resolve gallery entries: { file } → { image }; placeholder entries pass through.
+    // The real pixel size wins over any hand-written ratio, and portrait images are
+    // flagged so the page can lay them out several per row.
     const gallery = (meta.gallery || []).map(g => {
       if (g.file) {
         const { file, ...rest } = g;
-        return { ...rest, image: imgBase + preferWebp(file) };
+        const served = preferWebp(file);
+        const size = imageSize(path.join(projectDir, served));
+        const out = { ...rest, image: imgBase + served };
+        if (size) {
+          out.ratio = ratioString(size.w, size.h);
+          if (size.h > size.w) out.portrait = true;
+        }
+        return out;
       }
       return g;
     });
