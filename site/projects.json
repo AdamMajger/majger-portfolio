@@ -30,6 +30,18 @@
         "label": "line-up announcement",
         "image": "work/design/garaz/lineup.webp",
         "portrait": true
+      },
+      {
+        "label": "porota — Anna Masatova",
+        "image": "work/design/garaz/porota-masatova.webp",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "label": "gastro",
+        "image": "work/design/garaz/gastro.webp",
+        "ratio": "4/5",
+        "portrait": true
       }
     ],
     "youtube": null,
