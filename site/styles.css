@@ -544,7 +544,7 @@ a:hover, button:hover { color: var(--fg); }
 
 /* ========== Profile ========== */
 .profile {
-  max-width: 1320px;
+  max-width: var(--max-w);
   margin: 0 auto;
   padding: 0 var(--pad-x);
 }
