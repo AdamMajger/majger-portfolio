@@ -64,6 +64,11 @@
     "gallery": [
       {
         "label": "",
+        "image": "work/events/Hviezdne noci 2025/048_0008_Background.webp",
+        "ratio": "1400/927"
+      },
+      {
+        "label": "",
         "image": "work/events/Hviezdne noci 2025/048_0000_107.webp",
         "ratio": "1400/927"
       },
@@ -95,11 +100,6 @@
       {
         "label": "",
         "image": "work/events/Hviezdne noci 2025/048_0007_084.webp",
-        "ratio": "1400/927"
-      },
-      {
-        "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0008_Background.webp",
         "ratio": "1400/927"
       }
     ],
