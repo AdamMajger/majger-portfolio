@@ -344,7 +344,6 @@ a:hover, button:hover { color: var(--fg); }
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   gap: 72px;
-  border-bottom: 1px solid var(--line);
 }
 @media (max-width: 900px) {
   .detail__head { grid-template-columns: 1fr; gap: 40px; }
