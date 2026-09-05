@@ -395,15 +395,15 @@ a:hover, button:hover { color: var(--fg); }
 /* Gallery rows */
 .detail__gallery { margin: 80px 0 0; }
 .detail__row {
-  margin: 0 auto 80px;
+  margin: 0 0 80px;
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .detail__row--full { max-width: 1400px; padding: 0 var(--pad-x); width: 100%; }
 .detail__row--std  { max-width: 880px;  padding: 0 var(--pad-x); width: 100%; }
-.detail__row .ph { width: 100%; margin: 0 auto; }
+.detail__row .ph { width: 100%; margin: 0; }
 
 /* Embeds */
 .detail__embeds {
