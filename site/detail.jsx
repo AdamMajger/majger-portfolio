@@ -50,7 +50,11 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
           </dl>
         </div>
         <div className="detail__head-right">
-          <p className="detail__lede">{project.description}</p>
+          {/* Blank lines in the description become separate paragraphs —
+              HTML would otherwise collapse them into one run-on block. */}
+          {project.description.split(/\n\s*\n/).filter(Boolean).map((para, i) => (
+            <p className="detail__lede" key={i}>{para.trim()}</p>
+          ))}
         </div>
       </section>
 
