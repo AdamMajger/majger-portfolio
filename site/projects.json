@@ -49,6 +49,23 @@
     "image": "work/design/garaz/thumbnail.webp"
   },
   {
+    "slug": "Hviezdne noci 2025",
+    "title": "Hviezdne noci 2025",
+    "category": "events",
+    "categoryLabel": "Events",
+    "year": 2025,
+    "client": "Me",
+    "authors": "Kristína Majger, Richard Michalík, Karolína Majková",
+    "ratio": "4/5",
+    "placeholder": "hviezdne noci",
+    "description": "",
+    "role": "",
+    "duration": "2025",
+    "gallery": [],
+    "youtube": null,
+    "soundcloud": null
+  },
+  {
     "slug": "Sando",
     "title": "Sando",
     "category": "design",
