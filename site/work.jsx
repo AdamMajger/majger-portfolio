@@ -92,16 +92,19 @@ function Card({ project, onClick, showCaptions }) {
 
 function YouTubeThumbTile({ project }) {
   const id = project.youtubeThumbId;
-  const [src, setSrc] = useWorkState(`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`);
+  // maxres exists only for videos uploaded in HD, and sd is not guaranteed
+  // either — step down through the sizes until one loads. hqdefault always exists.
+  const QUALITIES = ["maxresdefault", "sddefault", "hqdefault", "mqdefault"];
+  const [step, setStep] = useWorkState(0);
 
   return (
     <div className="ph ph--ytthumb" style={{ aspectRatio: project.ratio.replace("/", " / ") }}>
       <img
         className="ph__yt-img"
-        src={src}
+        src={`https://i.ytimg.com/vi/${id}/${QUALITIES[step]}.jpg`}
         alt={project.title}
         loading="lazy"
-        onError={() => setSrc(`https://i.ytimg.com/vi/${id}/hqdefault.jpg`)}
+        onError={() => setStep((s) => (s < QUALITIES.length - 1 ? s + 1 : s))}
       />
       <div className="ph__yt-play" aria-hidden="true">
         <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
