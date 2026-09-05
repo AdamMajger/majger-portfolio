@@ -109,7 +109,7 @@ function Nav({ route, goTo, scrolled }) {
 
   return (
     <header className={"nav" + (scrolled ? " nav--scrolled" : "")} style={{ padding: "30px 0 18px" }}>
-      <div className="nav__inner" style={{ padding: "20px 40px 0px" }}>
+      <div className="nav__inner" style={{ padding: "20px var(--pad-x) 0px" }}>
         <button className="nav__brand" onClick={() => goTo({ view: "work" })} aria-label="MAJGER home">
           <span className="nav__brand-name">MAJGER</span>
         </button>
