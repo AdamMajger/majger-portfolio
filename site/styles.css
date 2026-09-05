@@ -185,6 +185,8 @@ a:hover, button:hover { color: var(--fg); }
   .grid--dense { column-count: 3; }
 }
 @media (max-width: 760px) {
+  /* Tighter side padding on phones — 40px eats ~21% of a 375px screen */
+  :root { --pad-x: 25px; }
   .grid--comfortable, .grid--dense { column-count: 1; }
 }
 
