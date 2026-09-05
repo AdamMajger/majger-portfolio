@@ -392,6 +392,8 @@ a:hover, button:hover { color: var(--fg); }
   margin: 0;
   text-wrap: pretty;
 }
+/* Space between paragraphs when a description has several. */
+.detail__lede + .detail__lede { margin-top: 1em; }
 
 /* Gallery rows */
 .detail__gallery { margin: 80px 0 0; }
