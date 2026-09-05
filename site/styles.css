@@ -369,7 +369,10 @@ a:hover, button:hover { color: var(--fg); }
   display: grid;
   grid-template-columns: 90px 1fr;
   gap: 16px;
-  padding: 14px 0;
+  padding: 7px 0;
+  /* Label is 11px mono, value 14px sans — align their text baselines rather
+     than the grid cells, or the value reads as sitting lower. */
+  align-items: baseline;
   font-size: 14px;
 }
 .detail__meta dt {
