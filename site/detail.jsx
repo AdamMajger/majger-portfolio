@@ -58,33 +58,24 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
         </div>
       </section>
 
-      {/* Gallery */}
+      {/* Gallery — consecutive portrait images share a row; everything else
+          gets a full-width row of its own. */}
       <section className="detail__gallery">
-        {project.gallery.map((g, i) => {
-          const fullBleed = !g.image && (i % 3 === 1 || g.ratio === "21/9" || g.ratio === "16/9");
-          return (
-            <div key={i} className={"detail__row " + (fullBleed ? "detail__row--full" : "detail__row--std")}>
-              {g.image && g.image.endsWith(".mp4") ?
-                <div className="ph ph--image" style={{ overflow: "hidden", background: "var(--card-bg)" }}>
-                  <video src={g.image} autoPlay muted loop playsInline
-                         style={{ width: "100%", height: "auto", display: "block" }} />
+        {groupGallery(project.gallery).map((group, gi) =>
+          group.portrait ? (
+            <div key={gi} className="detail__row detail__row--grid">
+              {group.items.map((g, i) => (
+                <div key={i} className="detail__cell">
+                  <GalleryItem g={g} tone={project.tone} />
                 </div>
-              : g.image ?
-                <div className="ph ph--image" style={{ overflow: "hidden", background: "var(--card-bg)" }}>
-                  <img src={g.image} alt={g.label}
-                       style={{ width: "100%", height: "auto", display: "block" }} />
-                </div>
-              :
-                <Placeholder
-                  label={g.label}
-                  ratio={g.ratio}
-                  variant={g.variant}
-                  hue={g.hue}
-                  tone={project.tone} />
-              }
+              ))}
             </div>
-          );
-        })}
+          ) : (
+            <div key={gi} className="detail__row detail__row--std">
+              <GalleryItem g={group.items[0]} tone={project.tone} />
+            </div>
+          )
+        )}
       </section>
 
       {/* Embeds */}
@@ -151,6 +142,41 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
         </button>
       </section>
     </main>
+  );
+}
+
+// Collapse the flat gallery list into runs: neighbouring portrait images become
+// one multi-column group, anything else stays a group of one.
+function groupGallery(gallery) {
+  const groups = [];
+  for (const g of gallery) {
+    const isPortrait = !!g.portrait;
+    const last = groups[groups.length - 1];
+    if (isPortrait && last && last.portrait) last.items.push(g);
+    else groups.push({ portrait: isPortrait, items: [g] });
+  }
+  return groups;
+}
+
+function GalleryItem({ g, tone }) {
+  if (g.image && g.image.endsWith(".mp4")) {
+    return (
+      <div className="ph ph--image" style={{ overflow: "hidden", background: "var(--card-bg)" }}>
+        <video src={g.image} autoPlay muted loop playsInline
+               style={{ width: "100%", height: "auto", display: "block" }} />
+      </div>
+    );
+  }
+  if (g.image) {
+    return (
+      <div className="ph ph--image" style={{ overflow: "hidden", background: "var(--card-bg)" }}>
+        <img src={g.image} alt={g.label} loading="lazy"
+             style={{ width: "100%", height: "auto", display: "block" }} />
+      </div>
+    );
+  }
+  return (
+    <Placeholder label={g.label} ratio={g.ratio} variant={g.variant} hue={g.hue} tone={tone} />
   );
 }
 
