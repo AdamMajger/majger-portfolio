@@ -370,10 +370,8 @@ a:hover, button:hover { color: var(--fg); }
   grid-template-columns: 90px 1fr;
   gap: 16px;
   padding: 14px 0;
-  border-top: 1px solid var(--line);
   font-size: 14px;
 }
-.detail__meta-row:last-child { border-bottom: 1px solid var(--line); }
 .detail__meta dt {
   font-family: var(--mono);
   font-size: 11px; text-transform: uppercase;
