@@ -31,6 +31,7 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
             variant={project.variant}
             hue={project.hue}
             tone={project.tone}
+            bg="var(--bg)"
             animate={project.animate} />
         }
       </section>
