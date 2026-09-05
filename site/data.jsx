@@ -9,12 +9,14 @@ const CATEGORIES = [
 ];
 
 // Atmospheric monochrome placeholder. Two hues, fine stripes, label slot.
-function Placeholder({ label, ratio = "4/5", variant = 0, hue = 30, tone = "dark", animate = null, accent = "#e8ff3a" }) {
-  const bg = tone === "dark"
+// `bg` overrides the tone-derived fill — pass "var(--bg)" to blend the tile
+// into the page instead of sitting on it as a lighter block.
+function Placeholder({ label, ratio = "4/5", variant = 0, hue = 30, tone = "dark", animate = null, accent = "#e8ff3a", bg: bgOverride = null }) {
+  const bg = bgOverride || (tone === "dark"
     ? `oklch(0.18 0.01 ${hue})`
     : tone === "mid"
       ? `oklch(0.28 0.015 ${hue})`
-      : `oklch(0.92 0.008 ${hue})`;
+      : `oklch(0.92 0.008 ${hue})`);
   const fg = tone === "light"
     ? `oklch(0.22 0.012 ${hue})`
     : `oklch(0.38 0.02 ${hue})`;
