@@ -401,8 +401,9 @@ a:hover, button:hover { color: var(--fg); }
   flex-direction: column;
   align-items: flex-start;
 }
-.detail__row--full { max-width: 1400px; padding: 0 var(--pad-x); width: 100%; }
-.detail__row--std  { max-width: 880px;  padding: 0 var(--pad-x); width: 100%; }
+/* Both row types span the full content width, matching the hero and title. */
+.detail__row--full,
+.detail__row--std { max-width: var(--max-w); padding: 0 var(--pad-x); width: 100%; }
 .detail__row .ph { width: 100%; margin: 0; }
 
 /* Embeds */
