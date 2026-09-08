@@ -14,7 +14,17 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
 
       {/* Hero image */}
       <section className="detail__hero">
-        {project.image && project.image.endsWith(".mp4") ?
+        {/* A video outranks a still: the thumbnail image exists for the grid
+            card, but here the video itself is the better hero. */}
+        {project.youtubeThumbId ?
+          <div className="detail__hero-video">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${project.youtubeThumbId}?rel=0&modestbranding=1`}
+              title={project.title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen />
+          </div>
+        : project.image && project.image.endsWith(".mp4") ?
           <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--bg)", maxHeight: "78vh", display: "flex" }}>
             <video src={project.image} autoPlay muted loop playsInline
                    style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
@@ -23,15 +33,6 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
           <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--bg)", maxHeight: "78vh", display: "flex" }}>
             <img src={project.image} alt={project.title}
                  style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
-          </div>
-        : project.youtubeThumbId ?
-          /* No still image, but a video — play it as the hero. */
-          <div className="detail__hero-video">
-            <iframe
-              src={`https://www.youtube-nocookie.com/embed/${project.youtubeThumbId}?rel=0&modestbranding=1`}
-              title={project.title}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen />
           </div>
         :
           <Placeholder
