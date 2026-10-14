@@ -203,6 +203,60 @@
     "image": "work/design/youtopia/thumbnail.mp4"
   },
   {
+    "slug": "SWANS",
+    "title": "SWANS",
+    "category": "events",
+    "categoryLabel": "Events",
+    "year": 2023,
+    "client": "",
+    "authors": "Hviezdne noci & Nová Synagóga Žilina",
+    "ratio": "3/2",
+    "placeholder": "swans",
+    "description": "",
+    "role": "",
+    "duration": "2023",
+    "gallery": [
+      {
+        "label": "",
+        "image": "work/events/SWANS/thumbnail.webp",
+        "ratio": "2048/1363"
+      },
+      {
+        "label": "",
+        "image": "work/events/SWANS/lo_M7F0827.webp",
+        "ratio": "2048/1365"
+      },
+      {
+        "label": "",
+        "image": "work/events/SWANS/482827267_1084991017001057_2888280234996998678_n.webp",
+        "ratio": "2048/1365"
+      },
+      {
+        "label": "",
+        "image": "work/events/SWANS/lo_Z6F1560.webp",
+        "ratio": "2048/1363"
+      },
+      {
+        "label": "",
+        "image": "work/events/SWANS/483480326_1084991143667711_1066273829237839582_n.webp",
+        "ratio": "2048/1365"
+      },
+      {
+        "label": "",
+        "image": "work/events/SWANS/lo_Z6F1629.webp",
+        "ratio": "2048/1363"
+      },
+      {
+        "label": "",
+        "image": "work/events/SWANS/lo_M7F0635.webp",
+        "ratio": "2048/1365"
+      }
+    ],
+    "youtube": null,
+    "soundcloud": null,
+    "image": "work/events/SWANS/thumbnail.webp"
+  },
+  {
     "slug": "Boostni svoj FEJM",
     "title": "Boostni svoj FEJM",
     "category": "ads",

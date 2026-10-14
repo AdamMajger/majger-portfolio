@@ -1,0 +1,23 @@
+{
+  "title": "SWANS",
+  "year": 2023,
+  "client": "",
+  "authors": "Hviezdne noci & Nová Synagóga Žilina",
+  "ratio": "3/2",
+  "thumbnail": "thumbnail.jpg",
+  "placeholder": "swans",
+  "description": "",
+  "role": "",
+  "duration": "2023",
+  "gallery": [
+    { "file": "thumbnail.jpg", "label": "" },
+    { "file": "lo_M7F0827.jpg", "label": "" },
+    { "file": "482827267_1084991017001057_2888280234996998678_n.jpg", "label": "" },
+    { "file": "lo_Z6F1560.jpg", "label": "" },
+    { "file": "483480326_1084991143667711_1066273829237839582_n.jpg", "label": "" },
+    { "file": "lo_Z6F1629.jpg", "label": "" },
+    { "file": "lo_M7F0635.jpg", "label": "" }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}
