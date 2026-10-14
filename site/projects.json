@@ -201,5 +201,23 @@
     "youtube": null,
     "soundcloud": null,
     "image": "work/design/youtopia/thumbnail.mp4"
+  },
+  {
+    "slug": "Boostni svoj FEJM",
+    "title": "Boostni svoj FEJM",
+    "category": "ads",
+    "categoryLabel": "Ads",
+    "year": 2019,
+    "client": "VÚB Banka",
+    "authors": "Triad Advertising Team",
+    "ratio": "16/9",
+    "placeholder": "boostni svoj fejm",
+    "description": "",
+    "role": "Art Direction",
+    "duration": "2019",
+    "gallery": [],
+    "youtube": null,
+    "soundcloud": null,
+    "youtubeThumbId": "3xgd9_UztE8"
   }
 ]
