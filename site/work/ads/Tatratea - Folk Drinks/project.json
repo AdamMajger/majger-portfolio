@@ -1,0 +1,22 @@
+{
+  "title": "Tatratea - Folk Drinks",
+  "year": 2019,
+  "client": "Tatratea",
+  "authors": "Triad Advertising Team",
+  "ratio": "1/1",
+  "thumbnail": "thumbnail.jpg",
+  "placeholder": "folk drinks",
+  "description": "",
+  "role": "Art Direction",
+  "duration": "2019",
+  "gallery": [
+    { "file": "thumbnail.jpg",       "label": "sv. lucia" },
+    { "file": "header.jpg",          "label": "tatratea 52%" },
+    { "file": "cepcenie.jpg",        "label": "čepčenie" },
+    { "file": "cepcenie-flasa.png",  "label": "čepčenie — tatratea 52%" },
+    { "file": "janske.jpg",          "label": "jánske ohne" },
+    { "file": "janske-flasa.png",    "label": "jánske ohne — tatratea 52%" }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}

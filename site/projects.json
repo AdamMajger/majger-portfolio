@@ -237,5 +237,54 @@
     "youtube": null,
     "soundcloud": null,
     "youtubeThumbId": "x6XvFa-3rNc"
+  },
+  {
+    "slug": "Tatratea - Folk Drinks",
+    "title": "Tatratea - Folk Drinks",
+    "category": "ads",
+    "categoryLabel": "Ads",
+    "year": 2019,
+    "client": "Tatratea",
+    "authors": "Triad Advertising Team",
+    "ratio": "1/1",
+    "placeholder": "folk drinks",
+    "description": "",
+    "role": "Art Direction",
+    "duration": "2019",
+    "gallery": [
+      {
+        "label": "sv. lucia",
+        "image": "work/ads/Tatratea - Folk Drinks/thumbnail.webp",
+        "ratio": "1/1"
+      },
+      {
+        "label": "tatratea 52%",
+        "image": "work/ads/Tatratea - Folk Drinks/header.webp",
+        "ratio": "1/1"
+      },
+      {
+        "label": "čepčenie",
+        "image": "work/ads/Tatratea - Folk Drinks/cepcenie.webp",
+        "ratio": "1/1"
+      },
+      {
+        "label": "čepčenie — tatratea 52%",
+        "image": "work/ads/Tatratea - Folk Drinks/cepcenie-flasa.webp",
+        "ratio": "1080/1079"
+      },
+      {
+        "label": "jánske ohne",
+        "image": "work/ads/Tatratea - Folk Drinks/janske.webp",
+        "ratio": "1/1"
+      },
+      {
+        "label": "jánske ohne — tatratea 52%",
+        "image": "work/ads/Tatratea - Folk Drinks/janske-flasa.webp",
+        "ratio": "1/1"
+      }
+    ],
+    "youtube": null,
+    "soundcloud": null,
+    "image": "work/ads/Tatratea - Folk Drinks/thumbnail.webp"
   }
 ]
