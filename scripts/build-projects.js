@@ -146,6 +146,7 @@ for (const category of categories) {
     if (meta.thumbnail)      project.image          = imgBase + preferWebp(meta.thumbnail);
     if (meta.youtubeThumbId) project.youtubeThumbId = meta.youtubeThumbId;
     if (meta.videoId)        project.videoId        = meta.videoId;
+    if (meta.galleryColumns) project.galleryColumns = meta.galleryColumns;
 
     // Optional placeholder appearance fields
     if (meta.variant  !== undefined) project.variant = meta.variant;

@@ -441,6 +441,11 @@ a:hover, button:hover { color: var(--fg); }
 @media (max-width: 760px) {
   .detail__row--grid { grid-template-columns: 1fr; }
 }
+/* Per-project fixed column count (`galleryColumns`), desktop only — below that
+   the normal 2 / 1 column fallbacks above apply. */
+@media (min-width: 761px) {
+  .detail__row--grid[style*="--cols"] { grid-template-columns: repeat(var(--cols), 1fr); }
+}
 .detail__cell { min-width: 0; }
 .detail__row .ph { width: 100%; margin: 0; }
 

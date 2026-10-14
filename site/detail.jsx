@@ -76,9 +76,10 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
       {/* Gallery — consecutive portrait images share a row; everything else
           gets a full-width row of its own. */}
       <section className="detail__gallery">
-        {groupGallery(project.gallery).map((group, gi) =>
+        {groupGallery(project.gallery, project.galleryColumns).map((group, gi) =>
           group.portrait ? (
-            <div key={gi} className="detail__row detail__row--grid">
+            <div key={gi} className="detail__row detail__row--grid"
+                 {...(project.galleryColumns ? { style: { "--cols": project.galleryColumns } } : {})}>
               {group.items.map((g, i) => (
                 <div key={i} className="detail__cell">
                   <GalleryItem g={g} tone={project.tone} />
@@ -161,11 +162,12 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
 }
 
 // Collapse the flat gallery list into runs: neighbouring portrait images become
-// one multi-column group, anything else stays a group of one.
-function groupGallery(gallery) {
+// one multi-column group, anything else stays a group of one. A project can set
+// `galleryColumns` to put every image in a fixed-column grid regardless of shape.
+function groupGallery(gallery, columns) {
   const groups = [];
   for (const g of gallery) {
-    const isPortrait = !!g.portrait;
+    const isPortrait = !!columns || !!g.portrait;
     const last = groups[groups.length - 1];
     if (isPortrait && last && last.portrait) last.items.push(g);
     else groups.push({ portrait: isPortrait, items: [g] });
