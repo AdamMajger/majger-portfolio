@@ -63,13 +63,13 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
               <div className="detail__meta-row" key={label}><dt>{label}</dt><dd>{value}</dd></div>
             ))}
           </dl>
-        </div>
-        <div className="detail__head-right">
-          {/* Blank lines in the description become separate paragraphs —
-              HTML would otherwise collapse them into one run-on block. */}
-          {project.description.split(/\n\s*\n/).filter(Boolean).map((para, i) => (
-            <p className="detail__lede" key={i}>{para.trim()}</p>
-          ))}
+          <div className="detail__head-right">
+            {/* Blank lines in the description become separate paragraphs —
+                HTML would otherwise collapse them into one run-on block. */}
+            {project.description.split(/\n\s*\n/).filter(Boolean).map((para, i) => (
+              <p className="detail__lede" key={i}>{para.trim()}</p>
+            ))}
+          </div>
         </div>
       </section>
 

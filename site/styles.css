@@ -355,13 +355,12 @@ a:hover, button:hover { color: var(--fg); }
   margin: 0 auto;
   padding: 56px var(--pad-x) 80px;
   display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 72px;
-}
-@media (max-width: 900px) {
-  .detail__head { grid-template-columns: 1fr; gap: 40px; }
+  grid-template-columns: 1fr;
+  gap: 40px;
 }
 .detail__head-left { display: flex; flex-direction: column; gap: 28px; }
+/* Description sits under the details; on desktop it keeps the column readable. */
+.detail__head-right { margin-top: 12px; }
 .detail__mono {
   font-family: var(--mono); font-size: 11px;
   text-transform: uppercase; letter-spacing: 0.06em;
