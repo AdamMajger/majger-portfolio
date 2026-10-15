@@ -315,23 +315,9 @@ a:hover, button:hover { color: var(--fg); }
 
 /* ========== Project Detail ========== */
 .detail { color: var(--fg); }
-.detail__crumbs {
-  max-width: var(--max-w);
-  margin: 0 auto;
-  padding: 28px var(--pad-x) 16px;
-  display: flex; gap: 10px; align-items: center;
-  font-family: var(--mono);
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--muted);
-}
-.crumb:hover { color: var(--fg); }
-.crumb--current { color: var(--fg); }
-.crumb__sep { opacity: 0.5; }
-
 .detail__hero {
-  padding: 0 var(--pad-x);
+  /* Same top gap the breadcrumb row used to provide. */
+  padding: 28px var(--pad-x) 0;
   max-width: var(--max-w);
   margin: 0 auto;
 }

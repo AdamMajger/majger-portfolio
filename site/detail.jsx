@@ -12,12 +12,6 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
 
   return (
     <main className="detail">
-      <div className="detail__crumbs">
-        <button onClick={() => goTo({ view: "work" })} className="crumb">← Index</button>
-        <span className="crumb__sep">/</span>
-        <span className="crumb crumb--current">{project.title}</span>
-      </div>
-
       {/* Hero image */}
       <section className="detail__hero">
         {/* A video outranks a still: the thumbnail image exists for the grid
