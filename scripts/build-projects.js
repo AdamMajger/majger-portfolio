@@ -147,6 +147,7 @@ for (const category of categories) {
     if (meta.youtubeThumbId) project.youtubeThumbId = meta.youtubeThumbId;
     if (meta.videoId)        project.videoId        = meta.videoId;
     if (meta.galleryColumns) project.galleryColumns = meta.galleryColumns;
+    if (meta.categoryDisplay) project.categoryDisplay = meta.categoryDisplay;
 
     // Optional placeholder appearance fields
     if (meta.variant  !== undefined) project.variant = meta.variant;

@@ -57,7 +57,7 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
               ["Authors",  project.authors],
               ["Role",     project.role],
               ["Period",   project.duration],
-              ["Category", project.categoryLabel],
+              ["Category", project.categoryDisplay || project.categoryLabel],
             ].filter(([, value]) => value).map(([label, value]) => (
               <div className="detail__meta-row" key={label}><dt>{label}</dt><dd>{value}</dd></div>
             ))}
