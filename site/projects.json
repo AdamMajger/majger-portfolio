@@ -237,16 +237,17 @@
     "year": 2024,
     "client": "",
     "authors": "Adam Majger",
-    "ratio": "4/5",
+    "ratio": "16/9",
     "placeholder": "youtopia",
     "description": "",
     "role": "Art Direction, Graphic Design",
     "duration": "2023",
     "gallery": [
       {
+        "ratio": "4/5",
+        "portrait": true,
         "label": "",
-        "image": "work/design/youtopia/triko-mockup.webp",
-        "ratio": "16/9"
+        "image": "work/design/youtopia/thumbnail.mp4"
       },
       {
         "label": "",
@@ -281,7 +282,7 @@
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/design/youtopia/thumbnail.mp4"
+    "image": "work/design/youtopia/triko-mockup.webp"
   },
   {
     "slug": "SWANS",

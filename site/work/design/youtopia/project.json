@@ -3,15 +3,17 @@
   "year": 2024,
   "client": "",
   "authors": "Adam Majger",
-  "ratio": "4/5",
+  "ratio": "16/9",
   "placeholder": "youtopia",
   "description": "",
   "role": "Art Direction, Graphic Design",
   "duration": "2023",
-  "thumbnail": "thumbnail.mp4",
+  "thumbnail": "triko-mockup.jpg",
   "gallery": [
     {
-      "file": "triko-mockup.jpg",
+      "file": "thumbnail.mp4",
+      "ratio": "4/5",
+      "portrait": true,
       "label": ""
     },
     {
