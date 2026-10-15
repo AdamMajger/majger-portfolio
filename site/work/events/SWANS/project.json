@@ -6,17 +6,38 @@
   "ratio": "3/2",
   "thumbnail": "thumbnail.jpg",
   "placeholder": "swans",
-  "description": "",
+  "description": "SWANS needs no introduction. Since the 80s they set the direction and pushed the boundaries of what rock music can sound like. In a number of incarnations fronted by Michael Gira, SWANS have explored multiple sonic territories from no wave, industrial to their own aching versions of endless ballad rock litanies. In the new incarnation that came with the album leaving meaning. they also presented their softer version in slow atmospheric arrangements. Their live performances are a phenomenon in their own way. They are painful and uplifting collective meditations surrounded by noise and arrangements, from which there is nowhere to hide, just like from Gira's declamatory speech.\n\nHviezdne noci is a collective working in the cultural center of the same name in Bytča, in the venue of Ladovna. In addition to bringing regular local activities and the festival, its ambition is to expand its borders into cross-species cooperation and program outside the city of Bytča. The pilot project is the SWANS concert in cooperation with the space of the New Synagogue and people from the collective around it.",
   "role": "",
   "duration": "2023",
   "gallery": [
-    { "file": "thumbnail.jpg", "label": "" },
-    { "file": "lo_M7F0827.jpg", "label": "" },
-    { "file": "482827267_1084991017001057_2888280234996998678_n.jpg", "label": "" },
-    { "file": "lo_Z6F1560.jpg", "label": "" },
-    { "file": "483480326_1084991143667711_1066273829237839582_n.jpg", "label": "" },
-    { "file": "lo_Z6F1629.jpg", "label": "" },
-    { "file": "lo_M7F0635.jpg", "label": "" }
+    {
+      "file": "thumbnail.jpg",
+      "label": ""
+    },
+    {
+      "file": "lo_M7F0827.jpg",
+      "label": ""
+    },
+    {
+      "file": "482827267_1084991017001057_2888280234996998678_n.jpg",
+      "label": ""
+    },
+    {
+      "file": "lo_Z6F1560.jpg",
+      "label": ""
+    },
+    {
+      "file": "483480326_1084991143667711_1066273829237839582_n.jpg",
+      "label": ""
+    },
+    {
+      "file": "lo_Z6F1629.jpg",
+      "label": ""
+    },
+    {
+      "file": "lo_M7F0635.jpg",
+      "label": ""
+    }
   ],
   "youtube": null,
   "soundcloud": null
