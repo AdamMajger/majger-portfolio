@@ -1,0 +1,20 @@
+{
+  "title": "Festival Hviezdne noci (2025)",
+  "year": 2025,
+  "client": "Hviezdne noci",
+  "ratio": "16/9",
+  "thumbnail": "thumbnail.mp4",
+  "galleryColumns": 2,
+  "placeholder": "festival hviezdne noci",
+  "description": "",
+  "role": "Graphic Design, Ideamaking, Art Direction",
+  "duration": "2025",
+  "gallery": [
+    { "file": "post-skica-v02b.png", "label": "" },
+    { "file": "poster-areal-v013 (1).jpg", "label": "" },
+    { "file": "poster-artist-v01.jpg", "label": "" },
+    { "file": "poster-ig-e.png", "label": "" }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}

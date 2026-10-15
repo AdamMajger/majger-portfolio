@@ -49,6 +49,50 @@
     "image": "work/design/garaz/thumbnail.webp"
   },
   {
+    "slug": "Festival Hviezdne noci 2025",
+    "title": "Festival Hviezdne noci (2025)",
+    "category": "design",
+    "categoryLabel": "Design",
+    "year": 2025,
+    "client": "Hviezdne noci",
+    "authors": "Majger",
+    "ratio": "16/9",
+    "placeholder": "festival hviezdne noci",
+    "description": "",
+    "role": "Graphic Design, Ideamaking, Art Direction",
+    "duration": "2025",
+    "gallery": [
+      {
+        "label": "",
+        "image": "work/design/Festival Hviezdne noci 2025/post-skica-v02b.webp",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/Festival Hviezdne noci 2025/poster-areal-v013 (1).webp",
+        "ratio": "432/611",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/Festival Hviezdne noci 2025/poster-artist-v01.webp",
+        "ratio": "432/611",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/Festival Hviezdne noci 2025/poster-ig-e.webp",
+        "ratio": "4/5",
+        "portrait": true
+      }
+    ],
+    "youtube": null,
+    "soundcloud": null,
+    "image": "work/design/Festival Hviezdne noci 2025/thumbnail.mp4",
+    "galleryColumns": 2
+  },
+  {
     "slug": "Hviezdne noci 2025",
     "title": "Hviezdne noci 2025",
     "category": "events",
