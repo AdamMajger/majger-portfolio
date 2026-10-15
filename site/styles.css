@@ -412,12 +412,15 @@ a:hover, button:hover { color: var(--fg); }
 .detail__row {
   /* `auto` keeps the max-width box centred like every other container; the
      content inside is left-aligned by align-items, not by killing the margin. */
-  margin: 0 auto 80px;
+  margin: 0 auto var(--gutter);
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+/* Rows sit one gutter apart (same as the gap inside a grid row); the last row
+   keeps the larger gap before whatever follows the gallery. */
+.detail__row:last-child { margin-bottom: 80px; }
 /* All row types span the full content width, matching the hero and title. */
 .detail__row--full,
 .detail__row--std,
