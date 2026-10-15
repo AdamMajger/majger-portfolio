@@ -152,47 +152,6 @@
     "image": "work/events/Hviezdne noci 2025/thumbnail.webp"
   },
   {
-    "slug": "Korzo Soblahovská",
-    "title": "Korzo Soblahovská",
-    "category": "design",
-    "categoryLabel": "Design",
-    "year": 2025,
-    "client": "Trenčín 2026, Trenčín na Korze",
-    "authors": "Jozef Glaba (illustrations)",
-    "ratio": "1/1",
-    "placeholder": "korzo soblahovská",
-    "description": "For one day, Soblahovská belongs to people. No cars – instead a street filled with a market, music, food and a friendly neighbourhood atmosphere. Come for a walk, stop by, sit down and discover what a city street can become when we look at it differently.\n\nKorzo Soblahovská is a modern urban market and a full-day gathering for families, neighbours and people from across the region. Together with Trenčín na Korze, we show that public space can be used comfortably, safely and with joy – not only in the city centre.",
-    "role": "Art Direction, Motion",
-    "duration": "2025",
-    "gallery": [
-      {
-        "label": "",
-        "image": "work/design/Korzo Soblahovská/mockup-ig-v01a (1).webp",
-        "ratio": "4/5",
-        "portrait": true
-      },
-      {
-        "ratio": "4/5",
-        "label": "",
-        "image": "work/design/Korzo Soblahovská/post-test-v02.mp4"
-      },
-      {
-        "ratio": "4/5",
-        "label": "",
-        "image": "work/design/Korzo Soblahovská/post-test-v03.mp4"
-      },
-      {
-        "ratio": "4/5",
-        "label": "",
-        "image": "work/design/Korzo Soblahovská/post-test-v04.mp4"
-      }
-    ],
-    "youtube": null,
-    "soundcloud": null,
-    "image": "work/design/Korzo Soblahovská/thumbnail.webp",
-    "galleryColumns": 2
-  },
-  {
     "slug": "Sando",
     "title": "Sando",
     "category": "design",
