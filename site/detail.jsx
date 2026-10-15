@@ -49,7 +49,6 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
       {/* Metadata + description */}
       <section className="detail__head">
         <div className="detail__head-left">
-          <div className="detail__mono">[ {project.categoryLabel} · {project.year} ]</div>
           <h1 className="detail__title">{project.title}</h1>
           {/* Only rows with a value — an empty field leaves no blank line behind. */}
           <dl className="detail__meta">
@@ -93,7 +92,6 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
           {project.youtube && (
             <div className="embed" style={{ textAlign: "center", alignItems: "stretch" }}>
               <div className="embed__head">
-                <span className="embed__mono">[ {project.youtube} ]</span>
                 <span className="embed__source">YouTube</span>
               </div>
               <div className="embed__frame embed__frame--video" style={{ padding: 0, overflow: "hidden" }}>
@@ -120,7 +118,6 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
           {project.soundcloud && (
             <div className="embed">
               <div className="embed__head">
-                <span className="embed__mono">[ Atmosphere ]</span>
                 <span className="embed__source">SoundCloud</span>
               </div>
               <div className="embed__frame embed__frame--audio">
@@ -152,7 +149,6 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
 
       {/* Next project */}
       <section className="detail__next">
-        <div className="detail__next-mono">[ Next project ]</div>
         <button className="detail__next-card" onClick={() => openProject(next.slug)}>
           <span className="detail__next-num">{String(projects.indexOf(next) + 1).padStart(2, "0")}</span>
           <span className="detail__next-title">{next.title}</span>

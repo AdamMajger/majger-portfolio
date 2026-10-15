@@ -349,11 +349,6 @@ a:hover, button:hover { color: var(--fg); }
   gap: 40px;
 }
 .detail__head-left { display: flex; flex-direction: column; gap: 28px; }
-.detail__mono {
-  font-family: var(--mono); font-size: 11px;
-  text-transform: uppercase; letter-spacing: 0.06em;
-  color: var(--muted);
-}
 .detail__title {
   font-family: var(--display);
   font-size: clamp(36px, 4.8vw, 68px);
@@ -528,12 +523,6 @@ a:hover, button:hover { color: var(--fg); }
   margin: 120px auto 0;
   padding: 60px var(--pad-x) 80px;
 }
-.detail__next-mono {
-  font-family: var(--mono); font-size: 11px;
-  text-transform: uppercase; letter-spacing: 0.06em;
-  color: var(--muted);
-  margin-bottom: 24px;
-}
 .detail__next-card {
   display: grid;
   grid-template-columns: 60px 1fr auto auto;
@@ -587,12 +576,6 @@ a:hover, button:hover { color: var(--fg); }
 .profile__head {
   padding: 80px 0 64px;
   border-bottom: 1px solid var(--line);
-}
-.profile__mono {
-  font-family: var(--mono); font-size: 11px;
-  text-transform: uppercase; letter-spacing: 0.06em;
-  color: var(--muted);
-  margin-bottom: 28px;
 }
 .profile__name {
   font-family: var(--display);

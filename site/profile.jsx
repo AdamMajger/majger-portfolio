@@ -4,7 +4,6 @@ function Profile() {
   return (
     <main className="profile">
       <div className="profile__head">
-        <div className="profile__mono">[ About ]</div>
         <h1 className="profile__name">
           Adam Majger<br />
           Designer<br />
