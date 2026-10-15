@@ -359,8 +359,6 @@ a:hover, button:hover { color: var(--fg); }
   gap: 40px;
 }
 .detail__head-left { display: flex; flex-direction: column; gap: 28px; }
-/* Description sits under the details; on desktop it keeps the column readable. */
-.detail__head-right { margin-top: 12px; }
 .detail__mono {
   font-family: var(--mono); font-size: 11px;
   text-transform: uppercase; letter-spacing: 0.06em;
@@ -402,6 +400,12 @@ a:hover, button:hover { color: var(--fg); }
   max-width: 60ch;
   margin: 0;
   text-wrap: pretty;
+}
+/* Description block at the end of the project, above "Next project". */
+.detail__about {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
 }
 /* Space between paragraphs when a description has several. */
 .detail__lede + .detail__lede { margin-top: 1em; }
