@@ -106,15 +106,25 @@ for (const category of categories) {
       return fs.existsSync(path.join(projectDir, webp)) ? webp : file;
     }
 
+    // Served URL for a media file, stamped with a short hash of its contents.
+    // Replacing a file under the same name (a new thumbnail.jpg, say) then yields
+    // a new URL, so browsers and caches can't keep showing the old image.
+    function served(file) {
+      const full = path.join(projectDir, file);
+      if (!fs.existsSync(full)) return imgBase + file;
+      const hash = crypto.createHash("sha1").update(fs.readFileSync(full)).digest("hex").slice(0, 8);
+      return `${imgBase}${file}?v=${hash}`;
+    }
+
     // Resolve gallery entries: { file } → { image }; placeholder entries pass through.
     // The real pixel size wins over any hand-written ratio, and portrait images are
     // flagged so the page can lay them out several per row.
     const gallery = (meta.gallery || []).map(g => {
       if (g.file) {
         const { file, ...rest } = g;
-        const served = preferWebp(file);
-        const size = imageSize(path.join(projectDir, served));
-        const out = { ...rest, image: imgBase + served };
+        const servedFile = preferWebp(file);
+        const size = imageSize(path.join(projectDir, servedFile));
+        const out = { ...rest, image: served(servedFile) };
         if (size) {
           out.ratio = ratioString(size.w, size.h);
           if (size.h > size.w) out.portrait = true;
@@ -143,7 +153,7 @@ for (const category of categories) {
     };
 
     // Optional media fields — only added when present
-    if (meta.thumbnail)      project.image          = imgBase + preferWebp(meta.thumbnail);
+    if (meta.thumbnail)      project.image          = served(preferWebp(meta.thumbnail));
     if (meta.youtubeThumbId) project.youtubeThumbId = meta.youtubeThumbId;
     if (meta.videoId)        project.videoId        = meta.videoId;
     if (meta.galleryColumns) project.galleryColumns = meta.galleryColumns;

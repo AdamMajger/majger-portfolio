@@ -53,7 +53,7 @@ function Card({ project, onClick, showCaptions }) {
       onMouseLeave={() => setHovered(false)}>
 
       <div className="card__media">
-        {project.image && project.image.endsWith(".mp4") ?
+        {isVideoSrc(project.image) ?
           <div className="ph ph--image" style={{ aspectRatio: project.ratio.replace("/", " / "), overflow: "hidden", background: "var(--card-bg)" }}>
             <video src={project.image} autoPlay muted loop playsInline
                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />

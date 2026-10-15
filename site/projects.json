@@ -16,37 +16,37 @@
       {
         "ratio": "4/5",
         "label": "key visual — garážou to začína",
-        "image": "work/design/garaz/Poster.webp",
+        "image": "work/design/garaz/Poster.webp?v=851bd4de",
         "portrait": true
       },
       {
         "ratio": "4/5",
         "label": "porota — jury reveal",
-        "image": "work/design/garaz/porota.webp",
+        "image": "work/design/garaz/porota.webp?v=f91d8bbe",
         "portrait": true
       },
       {
         "ratio": "4/5",
         "label": "line-up announcement",
-        "image": "work/design/garaz/lineup.webp",
+        "image": "work/design/garaz/lineup.webp?v=b6dfb478",
         "portrait": true
       },
       {
         "label": "porota — Anna Masatova",
-        "image": "work/design/garaz/porota-masatova.webp",
+        "image": "work/design/garaz/porota-masatova.webp?v=89ae04a3",
         "ratio": "4/5",
         "portrait": true
       },
       {
         "label": "gastro",
-        "image": "work/design/garaz/gastro.webp",
+        "image": "work/design/garaz/gastro.webp?v=2c59780f",
         "ratio": "4/5",
         "portrait": true
       }
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/design/garaz/thumbnail.webp",
+    "image": "work/design/garaz/thumbnail.webp?v=a098c42c",
     "categoryDisplay": "Visual identity"
   },
   {
@@ -65,32 +65,32 @@
     "gallery": [
       {
         "label": "",
-        "image": "work/design/Festival Hviezdne noci 2025/post-skica-v02b.webp",
+        "image": "work/design/Festival Hviezdne noci 2025/post-skica-v02b.webp?v=6fad0b1a",
         "ratio": "4/5",
         "portrait": true
       },
       {
         "label": "",
-        "image": "work/design/Festival Hviezdne noci 2025/poster-areal-v013 (1).webp",
+        "image": "work/design/Festival Hviezdne noci 2025/poster-areal-v013 (1).webp?v=3cf838d3",
         "ratio": "432/611",
         "portrait": true
       },
       {
         "label": "",
-        "image": "work/design/Festival Hviezdne noci 2025/poster-artist-v01.webp",
+        "image": "work/design/Festival Hviezdne noci 2025/poster-artist-v01.webp?v=3e6ea2ce",
         "ratio": "432/611",
         "portrait": true
       },
       {
         "label": "",
-        "image": "work/design/Festival Hviezdne noci 2025/poster-ig-e.webp",
+        "image": "work/design/Festival Hviezdne noci 2025/poster-ig-e.webp?v=4f84b25b",
         "ratio": "4/5",
         "portrait": true
       }
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/design/Festival Hviezdne noci 2025/thumbnail.mp4",
+    "image": "work/design/Festival Hviezdne noci 2025/thumbnail.mp4?v=d1a19261",
     "galleryColumns": 2
   },
   {
@@ -109,48 +109,48 @@
     "gallery": [
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0008_Background.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0008_Background.webp?v=d5b32514",
         "ratio": "1400/927"
       },
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0000_107.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0000_107.webp?v=b4f3f9f5",
         "ratio": "1400/927"
       },
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0002_181.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0002_181.webp?v=703232b9",
         "ratio": "1400/927"
       },
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0003_163.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0003_163.webp?v=8e8fd3cd",
         "ratio": "1400/927"
       },
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0004_157.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0004_157.webp?v=e721af5d",
         "ratio": "1400/927"
       },
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0005_128.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0005_128.webp?v=f125a1f7",
         "ratio": "1400/927"
       },
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0006_095.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0006_095.webp?v=ea70f4f9",
         "ratio": "1400/927"
       },
       {
         "label": "",
-        "image": "work/events/Hviezdne noci 2025/048_0007_084.webp",
+        "image": "work/events/Hviezdne noci 2025/048_0007_084.webp?v=e05e9c28",
         "ratio": "1400/927"
       }
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/events/Hviezdne noci 2025/thumbnail.webp"
+    "image": "work/events/Hviezdne noci 2025/thumbnail.webp?v=8ebaf399"
   },
   {
     "slug": "Sando",
@@ -169,27 +169,27 @@
       {
         "ratio": "1400/787",
         "label": "",
-        "image": "work/design/Sando/behance-v01a.webp"
+        "image": "work/design/Sando/behance-v01a.webp?v=8d93c693"
       },
       {
         "ratio": "1400/787",
         "label": "",
-        "image": "work/design/Sando/behance-v01b.webp"
+        "image": "work/design/Sando/behance-v01b.webp?v=adb00828"
       },
       {
         "ratio": "1400/787",
         "label": "",
-        "image": "work/design/Sando/behance-v01c.webp"
+        "image": "work/design/Sando/behance-v01c.webp?v=7edd7c9a"
       },
       {
         "ratio": "1400/787",
         "label": "",
-        "image": "work/design/Sando/behance-v01d.webp"
+        "image": "work/design/Sando/behance-v01d.webp?v=e683f7d6"
       }
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/design/Sando/thumbnail.mp4"
+    "image": "work/design/Sando/thumbnail.mp4?v=3b1e7ab7"
   },
   {
     "slug": "The Glasses - Anjel WC40 feat. Ježišmária",
@@ -207,7 +207,7 @@
     "gallery": [],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/music/The Glasses - Anjel WC40 feat. Ježišmária/thumbnail.webp",
+    "image": "work/music/The Glasses - Anjel WC40 feat. Ježišmária/thumbnail.webp?v=14e08022",
     "youtubeThumbId": "1hkDjC7uWZg"
   },
   {
@@ -226,7 +226,7 @@
     "gallery": [],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/music/The Glasses - Všechno sněd táta/thumbnail.webp",
+    "image": "work/music/The Glasses - Všechno sněd táta/thumbnail.webp?v=ccb11f64",
     "youtubeThumbId": "e6ku-fpp16s"
   },
   {
@@ -247,42 +247,42 @@
         "ratio": "4/5",
         "portrait": true,
         "label": "",
-        "image": "work/design/youtopia/thumbnail.mp4"
+        "image": "work/design/youtopia/thumbnail.mp4?v=8c9353b4"
       },
       {
         "label": "",
-        "image": "work/design/youtopia/Frame 11.webp",
+        "image": "work/design/youtopia/Frame 11.webp?v=232f29c4",
         "ratio": "4/5",
         "portrait": true
       },
       {
         "label": "",
-        "image": "work/design/youtopia/Frame 12.webp",
+        "image": "work/design/youtopia/Frame 12.webp?v=ac90f86b",
         "ratio": "4/5",
         "portrait": true
       },
       {
         "label": "",
-        "image": "work/design/youtopia/Frame 13.webp",
+        "image": "work/design/youtopia/Frame 13.webp?v=7ea7776e",
         "ratio": "4/5",
         "portrait": true
       },
       {
         "label": "",
-        "image": "work/design/youtopia/Frame 14.webp",
+        "image": "work/design/youtopia/Frame 14.webp?v=8366b848",
         "ratio": "4/5",
         "portrait": true
       },
       {
         "label": "",
-        "image": "work/design/youtopia/Frame 15.webp",
+        "image": "work/design/youtopia/Frame 15.webp?v=0d7ed6b5",
         "ratio": "4/5",
         "portrait": true
       }
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/design/youtopia/triko-mockup.webp"
+    "image": "work/design/youtopia/triko-mockup.webp?v=d13c6e4e"
   },
   {
     "slug": "SWANS",
@@ -300,43 +300,43 @@
     "gallery": [
       {
         "label": "",
-        "image": "work/events/SWANS/thumbnail.webp",
+        "image": "work/events/SWANS/thumbnail.webp?v=7fd78481",
         "ratio": "2048/1363"
       },
       {
         "label": "",
-        "image": "work/events/SWANS/lo_M7F0827.webp",
+        "image": "work/events/SWANS/lo_M7F0827.webp?v=4a2d14d3",
         "ratio": "2048/1365"
       },
       {
         "label": "",
-        "image": "work/events/SWANS/482827267_1084991017001057_2888280234996998678_n.webp",
+        "image": "work/events/SWANS/482827267_1084991017001057_2888280234996998678_n.webp?v=22a72f05",
         "ratio": "2048/1365"
       },
       {
         "label": "",
-        "image": "work/events/SWANS/lo_Z6F1560.webp",
+        "image": "work/events/SWANS/lo_Z6F1560.webp?v=dc33d1ce",
         "ratio": "2048/1363"
       },
       {
         "label": "",
-        "image": "work/events/SWANS/483480326_1084991143667711_1066273829237839582_n.webp",
+        "image": "work/events/SWANS/483480326_1084991143667711_1066273829237839582_n.webp?v=bc565355",
         "ratio": "2048/1365"
       },
       {
         "label": "",
-        "image": "work/events/SWANS/lo_Z6F1629.webp",
+        "image": "work/events/SWANS/lo_Z6F1629.webp?v=5266ec7a",
         "ratio": "2048/1363"
       },
       {
         "label": "",
-        "image": "work/events/SWANS/lo_M7F0635.webp",
+        "image": "work/events/SWANS/lo_M7F0635.webp?v=7dfb5e1d",
         "ratio": "2048/1365"
       }
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/events/SWANS/thumbnail.webp"
+    "image": "work/events/SWANS/thumbnail.webp?v=7fd78481"
   },
   {
     "slug": "Boostni svoj FEJM",
@@ -354,7 +354,7 @@
     "gallery": [],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/ads/Boostni svoj FEJM/thumbnail.webp",
+    "image": "work/ads/Boostni svoj FEJM/thumbnail.webp?v=27d5c677",
     "youtubeThumbId": "3xgd9_UztE8"
   },
   {
@@ -373,7 +373,7 @@
     "gallery": [],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/ads/Slovensko žije všetkými farbami/thumbnail.webp",
+    "image": "work/ads/Slovensko žije všetkými farbami/thumbnail.webp?v=0043cdb8",
     "youtubeThumbId": "x6XvFa-3rNc"
   },
   {
@@ -392,38 +392,38 @@
     "gallery": [
       {
         "label": "sv. lucia",
-        "image": "work/ads/Tatratea - Folk Drinks/thumbnail.webp",
+        "image": "work/ads/Tatratea - Folk Drinks/thumbnail.webp?v=d097bd82",
         "ratio": "1/1"
       },
       {
         "label": "tatratea 52%",
-        "image": "work/ads/Tatratea - Folk Drinks/header.webp",
+        "image": "work/ads/Tatratea - Folk Drinks/header.webp?v=2f97a418",
         "ratio": "1/1"
       },
       {
         "label": "čepčenie",
-        "image": "work/ads/Tatratea - Folk Drinks/cepcenie.webp",
+        "image": "work/ads/Tatratea - Folk Drinks/cepcenie.webp?v=77f44d86",
         "ratio": "1/1"
       },
       {
         "label": "čepčenie — tatratea 52%",
-        "image": "work/ads/Tatratea - Folk Drinks/cepcenie-flasa.webp",
+        "image": "work/ads/Tatratea - Folk Drinks/cepcenie-flasa.webp?v=8481851c",
         "ratio": "1080/1079"
       },
       {
         "label": "jánske ohne",
-        "image": "work/ads/Tatratea - Folk Drinks/janske.webp",
+        "image": "work/ads/Tatratea - Folk Drinks/janske.webp?v=2de9cfbe",
         "ratio": "1/1"
       },
       {
         "label": "jánske ohne — tatratea 52%",
-        "image": "work/ads/Tatratea - Folk Drinks/janske-flasa.webp",
+        "image": "work/ads/Tatratea - Folk Drinks/janske-flasa.webp?v=d098bf68",
         "ratio": "1/1"
       }
     ],
     "youtube": null,
     "soundcloud": null,
-    "image": "work/ads/Tatratea - Folk Drinks/thumbnail.webp",
+    "image": "work/ads/Tatratea - Folk Drinks/thumbnail.webp?v=d097bd82",
     "galleryColumns": 2
   }
 ]

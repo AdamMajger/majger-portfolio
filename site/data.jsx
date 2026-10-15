@@ -464,4 +464,7 @@ const CV = [
   { period: "2013 — 2014",         role: "Graphic Designer",                                      place: "Film Club Bytča" },
 ];
 
-Object.assign(window, { CATEGORIES, AWARDS, CV, Placeholder });
+// True for a video URL, with or without a ?v= cache-busting suffix.
+const isVideoSrc = (src) => !!src && /\.mp4(\?|$)/i.test(src);
+
+Object.assign(window, { CATEGORIES, AWARDS, CV, Placeholder, isVideoSrc });

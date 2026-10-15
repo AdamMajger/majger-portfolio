@@ -5,7 +5,7 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
   const next = projects[(idx + 1) % projects.length];
 
   // When the hero is the cover image, don't repeat it as the first gallery item.
-  const heroIsImage = !project.youtubeThumbId && project.image && !project.image.endsWith(".mp4");
+  const heroIsImage = !project.youtubeThumbId && project.image && !isVideoSrc(project.image);
   const galleryItems = heroIsImage
     ? project.gallery.filter((g) => g.image !== project.image)
     : project.gallery;
@@ -24,7 +24,7 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen />
           </div>
-        : project.image && project.image.endsWith(".mp4") ?
+        : isVideoSrc(project.image) ?
           <div className="ph ph--image detail__hero-img" style={{ overflow: "hidden", background: "var(--bg)", maxHeight: "78vh", display: "flex" }}>
             <video src={project.image} autoPlay muted loop playsInline
                    style={{ maxHeight: "78vh", width: "auto", maxWidth: "100%", objectFit: "contain", display: "block" }} />
@@ -175,7 +175,7 @@ function groupGallery(gallery, columns) {
 }
 
 function GalleryItem({ g, tone }) {
-  if (g.image && g.image.endsWith(".mp4")) {
+  if (isVideoSrc(g.image)) {
     return (
       <div className="ph ph--image" style={{ overflow: "hidden", background: "var(--card-bg)" }}>
         <video src={g.image} autoPlay muted loop playsInline
