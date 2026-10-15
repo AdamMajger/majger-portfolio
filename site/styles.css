@@ -187,6 +187,10 @@ a:hover, button:hover { color: var(--fg); }
 @media (max-width: 760px) {
   /* Tighter side padding on phones — 40px eats ~21% of a 375px screen */
   :root { --pad-x: 25px; }
+  /* Menu sits as far from the top of the screen as from the sides (25px).
+     !important because Nav in app.jsx sets its desktop spacing inline. */
+  .nav { padding-top: 18px !important; }
+  .nav__inner { padding-top: 0 !important; }
   .grid--comfortable, .grid--dense { column-count: 1; }
 }
 
