@@ -197,7 +197,43 @@
     "description": "",
     "role": "",
     "duration": "",
-    "gallery": [],
+    "gallery": [
+      {
+        "label": "",
+        "image": "work/design/youtopia/triko-mockup.webp",
+        "ratio": "16/9"
+      },
+      {
+        "label": "",
+        "image": "work/design/youtopia/Frame 11.webp",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/youtopia/Frame 12.webp",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/youtopia/Frame 13.webp",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/youtopia/Frame 14.webp",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/youtopia/Frame 15.webp",
+        "ratio": "4/5",
+        "portrait": true
+      }
+    ],
     "youtube": null,
     "soundcloud": null,
     "image": "work/design/youtopia/thumbnail.mp4"

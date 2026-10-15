@@ -9,7 +9,32 @@
   "role": "",
   "duration": "",
   "thumbnail": "thumbnail.mp4",
-  "gallery": [],
+  "gallery": [
+    {
+      "file": "triko-mockup.jpg",
+      "label": ""
+    },
+    {
+      "file": "Frame 11.png",
+      "label": ""
+    },
+    {
+      "file": "Frame 12.png",
+      "label": ""
+    },
+    {
+      "file": "Frame 13.png",
+      "label": ""
+    },
+    {
+      "file": "Frame 14.png",
+      "label": ""
+    },
+    {
+      "file": "Frame 15.png",
+      "label": ""
+    }
+  ],
   "youtube": null,
   "soundcloud": null
 }
