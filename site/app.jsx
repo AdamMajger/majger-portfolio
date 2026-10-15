@@ -1,6 +1,6 @@
 // MAJGER — main app. Fetches projects.json, routes between Work / About / Project Detail.
 
-const { useState, useEffect } = React;
+const { useState, useEffect, useLayoutEffect } = React;
 
 // ---- URL routing -----------------------------------------------------------
 // Routes map to real paths so each view is linkable and the browser back
@@ -35,9 +35,12 @@ function App() {
       .then(data => setProjects(data));
   }, []);
 
-  useEffect(() => {
+  // Jump to the top before the new view paints. The stage has
+  // `scroll-behavior: smooth`, which would otherwise animate this reset as a
+  // fast scroll up; "instant" overrides it for this one programmatic scroll.
+  useLayoutEffect(() => {
     const stage = document.querySelector(".stage");
-    if (stage) stage.scrollTop = 0;
+    if (stage) stage.scrollTo({ top: 0, left: 0, behavior: "instant" });
     setScrolled(false);
   }, [route]);
 
