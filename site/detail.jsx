@@ -4,6 +4,12 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
   const idx = projects.findIndex((p) => p.slug === project.slug);
   const next = projects[(idx + 1) % projects.length];
 
+  // When the hero is the cover image, don't repeat it as the first gallery item.
+  const heroIsImage = !project.youtubeThumbId && project.image && !project.image.endsWith(".mp4");
+  const galleryItems = heroIsImage
+    ? project.gallery.filter((g) => g.image !== project.image)
+    : project.gallery;
+
   return (
     <main className="detail">
       <div className="detail__crumbs">
@@ -69,7 +75,7 @@ function ProjectDetail({ project, projects, goTo, openProject }) {
       {/* Gallery — consecutive portrait images share a row; everything else
           gets a full-width row of its own. */}
       <section className="detail__gallery">
-        {groupGallery(project.gallery, project.galleryColumns).map((group, gi) =>
+        {groupGallery(galleryItems, project.galleryColumns).map((group, gi) =>
           group.portrait ? (
             <div key={gi} className="detail__row detail__row--grid"
                  {...(project.galleryColumns ? { style: { "--cols": project.galleryColumns } } : {})}>
