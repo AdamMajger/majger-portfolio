@@ -1,0 +1,29 @@
+{
+  "title": "Európske kultúrne leto",
+  "year": 2026,
+  "client": "",
+  "ratio": "1/1",
+  "thumbnail": "thumbnail.png",
+  "placeholder": "európske kultúrne leto",
+  "description": "",
+  "role": "Art Direction, Graphic Design",
+  "duration": "2026",
+  "gallery": [
+    {
+      "file": "portfolko-v01a.png",
+      "label": ""
+    },
+    {
+      "file": "portfolko-v01b.png",
+      "label": ""
+    },
+    {
+      "file": "portfolko-v02a.mp4",
+      "ratio": "4/5",
+      "portrait": true,
+      "label": ""
+    }
+  ],
+  "youtube": null,
+  "soundcloud": null
+}

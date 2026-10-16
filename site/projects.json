@@ -1,5 +1,42 @@
 [
   {
+    "slug": "Európske kultúrne leto",
+    "title": "Európske kultúrne leto",
+    "category": "design",
+    "categoryLabel": "Design",
+    "year": 2026,
+    "client": "",
+    "authors": "Majger",
+    "ratio": "1/1",
+    "placeholder": "európske kultúrne leto",
+    "description": "",
+    "role": "Art Direction, Graphic Design",
+    "duration": "2026",
+    "gallery": [
+      {
+        "label": "",
+        "image": "work/design/Európske kultúrne leto/portfolko-v01a.webp?v=d383bbe9",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "label": "",
+        "image": "work/design/Európske kultúrne leto/portfolko-v01b.webp?v=f122ab43",
+        "ratio": "4/5",
+        "portrait": true
+      },
+      {
+        "ratio": "4/5",
+        "portrait": true,
+        "label": "",
+        "image": "work/design/Európske kultúrne leto/portfolko-v02a.mp4?v=f0727c8f"
+      }
+    ],
+    "youtube": null,
+    "soundcloud": null,
+    "image": "work/design/Európske kultúrne leto/thumbnail.webp?v=136c18b5"
+  },
+  {
     "slug": "garaz",
     "title": "Garáž",
     "category": "design",
